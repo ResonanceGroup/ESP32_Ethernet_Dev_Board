@@ -6954,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_Controller_Hardware:WIZNET_RB1-125BAG1A"
+		(property "Footprint" "RG_Connectors:WIZNET_RB1-125BAG1A"
 			(at 265.43 104.14 0)
 			(effects
 				(font
