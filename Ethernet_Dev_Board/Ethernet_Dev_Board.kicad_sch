@@ -369,510 +369,6 @@
 				)
 			)
 		)
-		(symbol "LED_Controller_Hardware-eagle-import:3.3V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LED_Controller_Hardware:PAD_0.0638"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LED_Controller_Hardware-eagle-import:3.3VA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LED_Controller_Hardware:PAD_0.0638"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3VA_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LED_Controller_Hardware-eagle-import:3.3VD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LED_Controller_Hardware:PAD_0.0638"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3VD_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LED_Controller_Hardware-eagle-import:5V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LED_Controller_Hardware:PAD_0.0638"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "5V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LED_Controller_Hardware-eagle-import:AZ1117"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3915,12 +3411,6 @@
 		(uuid "5d265ea7-f22e-40af-981f-e67684470f30")
 	)
 	(junction
-		(at 72.396 53.346)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ce35f3a-8f29-4d02-9010-fe5139ef0024")
-	)
-	(junction
 		(at 80.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3973,12 +3463,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf8edd5-d407-44c4-bdd5-d289568fa2a6")
-	)
-	(junction
-		(at 133.356 53.346)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8f82f64-7606-4098-ad77-73bf64a3fc2f")
 	)
 	(junction
 		(at 137.16 138.43)
@@ -4136,26 +3620,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.936 49.536) (xy 72.396 49.536)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "0e25833d-05a2-4337-b51d-ee96f68970d2")
-	)
-	(wire
-		(pts
-			(xy 143.51 124.46) (xy 137.16 124.46)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "0efb9ffb-618c-47c8-a19d-b9aad933b8db")
-	)
-	(wire
-		(pts
 			(xy 93.98 106.68) (xy 102.87 106.68)
 		)
 		(stroke
@@ -4296,16 +3760,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "34cf5dad-fb98-4a47-acf3-196472b6f52f")
-	)
-	(wire
-		(pts
 			(xy 252.73 100.33) (xy 252.73 105.41)
 		)
 		(stroke
@@ -4366,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.356 53.34) (xy 133.356 53.346)
+			(xy 133.356 53.34) (xy 133.356 59.061)
 		)
 		(stroke
 			(width 0.25)
@@ -4576,16 +4030,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 102.87) (xy 137.16 102.87)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "76601493-67d2-446f-b3b1-d2bc960071b7")
-	)
-	(wire
-		(pts
 			(xy 157.48 106.68) (xy 167.64 106.68)
 		)
 		(stroke
@@ -4663,16 +4107,6 @@
 			(type default)
 		)
 		(uuid "8945932e-e8d0-47e1-804f-d6e7cecaeb07")
-	)
-	(wire
-		(pts
-			(xy 139.706 53.346) (xy 133.356 53.346)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "8a084ddc-3e1c-4fd5-8d19-a448973bf0ce")
 	)
 	(wire
 		(pts
@@ -4936,16 +4370,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 137.16 128.27)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "c97018e9-4af8-4c1d-8ca8-6ced05500550")
-	)
-	(wire
-		(pts
 			(xy 167.64 115.57) (xy 167.64 118.11)
 		)
 		(stroke
@@ -5126,16 +4550,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.356 59.061) (xy 133.356 53.346)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "ecdacd49-2527-4e9a-ac50-d6e266605f4d")
-	)
-	(wire
-		(pts
 			(xy 252.73 113.03) (xy 252.73 115.57)
 		)
 		(stroke
@@ -5153,16 +4567,6 @@
 			(type solid)
 		)
 		(uuid "f260f62b-4b4c-4d9e-8afc-b395014efe3b")
-	)
-	(wire
-		(pts
-			(xy 72.396 49.536) (xy 72.396 53.346)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "f64bc772-93db-4c0b-901e-0ee02f607330")
 	)
 	(wire
 		(pts
@@ -5645,7 +5049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 218.44 156.21 0)
 			(effects
 				(font
@@ -6366,7 +5770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "RXN_ETH"
+		(property "Value" "ETH_RX_N"
 			(at 247.65 67.31 0)
 			(effects
 				(font
@@ -6570,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "RXP_ETH"
+		(property "Value" "ETH_RX_P"
 			(at 247.65 64.77 0)
 			(effects
 				(font
@@ -6671,7 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TXN_ETH"
+		(property "Value" "ETH_TX_N"
 			(at 248.285 72.39 0)
 			(effects
 				(font
@@ -6876,7 +6280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 102.87 170.18 0)
 			(effects
 				(font
@@ -7165,106 +6569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:5V")
-		(at 78.746 49.536 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e31b3d6-40a5-4efb-a123-0c0fcd9fa341")
-		(property "Reference" "J102"
-			(at 78.746 46.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 78.746 52.076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 78.746 49.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06aa5c77-7a21-439e-a0bd-00be2ed996ee")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "J102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 39.37 85.09 0)
 		(unit 1)
@@ -7465,106 +6769,6 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:3.3VD")
-		(at 147.32 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fa4bb83-68e8-4e3e-9210-48f20214bf40")
-		(property "Reference" "J105"
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3VD"
-			(at 147.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6162ef43-b4d9-4eae-b51b-00cfd7e096ad")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "J105")
 					(unit 1)
 				)
 			)
@@ -7896,7 +7100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 251.46 156.21 0)
 			(effects
 				(font
@@ -8203,7 +7407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 114.3 170.18 0)
 			(effects
 				(font
@@ -8545,7 +7749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TXP_ETH"
+		(property "Value" "ETH_TX_P"
 			(at 248.285 69.85 0)
 			(effects
 				(font
@@ -8954,7 +8158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 252.73 120.65 0)
 			(effects
 				(font
@@ -9057,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -9569,7 +8773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 127 125.73 0)
 			(effects
 				(font
@@ -9670,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Value" "5V Power"
+		(property "Value" "Power"
 			(at 81.28 81.28 0)
 			(effects
 				(font
@@ -10073,106 +9277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:3.3VA")
-		(at 147.32 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5d2f792-2092-46fe-b4ce-446b6232a0b1")
-		(property "Reference" "J104"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3VA"
-			(at 147.32 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 147.32 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6da74beb-ec15-49a1-80d4-f2e7a956c51c")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "J104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 127 140.97 0)
 		(unit 1)
@@ -10191,7 +9295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 127 146.05 0)
 			(effects
 				(font
@@ -10270,106 +9374,6 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:3.3V")
-		(at 143.516 53.346 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d94eb329-2895-44d3-85b2-5d6452768ed5")
-		(property "Reference" "J103"
-			(at 143.516 50.806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 143.516 56.521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 143.516 53.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cfdb44d-351c-4b01-a355-bf3ac49ee777")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "J103")
 					(unit 1)
 				)
 			)

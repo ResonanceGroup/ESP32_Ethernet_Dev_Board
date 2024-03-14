@@ -4052,7 +4052,7 @@
 				(pin power_in line
 					(at -20.32 17.78 0)
 					(length 2.54)
-					(name "GND@1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4170,7 +4170,7 @@
 					(number "15"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4656,7 +4656,7 @@
 					(number "38"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4674,7 +4674,7 @@
 					(number "39"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4693,78 +4693,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 17.78 180)
-					(length 2.54)
-					(name "GND@3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -11.43 -24.13 90)
-					(length 2.54)
-					(name "GND@2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 17.78 0)
-					(length 2.54)
-					(name "GND@1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -11.43 -24.13 90)
-					(length 2.54)
-					(name "GND@2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -6019,6 +5947,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0419d3b3-850c-474c-b337-33aa45601425")
+	)
+	(wire
+		(pts
 			(xy 57.15 74.93) (xy 60.96 74.93)
 		)
 		(stroke
@@ -6039,13 +5977,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 104.14) (xy 207.01 104.14)
+			(xy 204.47 93.98) (xy 207.01 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09716be8-dc57-423e-8d93-ca0ca085d0bf")
+		(uuid "08d8c7cd-1625-4eb7-b96a-d802d83d1b93")
 	)
 	(wire
 		(pts
@@ -6059,13 +5997,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 116.84) (xy 207.01 116.84)
+			(xy 204.47 111.76) (xy 207.01 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c0360ef-d0f5-4abc-9baf-bf9fb117204f")
+		(uuid "0ce41f86-68e5-4569-94a6-6bd89cd2c274")
 	)
 	(wire
 		(pts
@@ -6086,26 +6024,6 @@
 			(type default)
 		)
 		(uuid "0dacf015-a7d6-473f-b5a5-7bea4b5b63bf")
-	)
-	(wire
-		(pts
-			(xy 204.47 96.52) (xy 207.01 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dfb4c64-a9bf-4b08-8a50-90cbee3740d1")
-	)
-	(wire
-		(pts
-			(xy 204.47 121.92) (xy 207.01 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cb20af9-916d-4f58-a903-3c6952988cda")
 	)
 	(wire
 		(pts
@@ -6169,16 +6087,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 207.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3e25a0-c1ed-4658-96d9-cd53af12e2d8")
-	)
-	(wire
-		(pts
 			(xy 92.075 133.35) (xy 103.505 133.35)
 		)
 		(stroke
@@ -6196,6 +6104,16 @@
 			(type default)
 		)
 		(uuid "310ff747-66fc-4cd2-8ce6-14f3faf05583")
+	)
+	(wire
+		(pts
+			(xy 204.47 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e69218-ea43-48c5-9a00-ff8a4998832c")
 	)
 	(wire
 		(pts
@@ -6309,6 +6227,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 119.38) (xy 207.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ed82c3-f9a5-4d34-8632-6e2d2f53f141")
+	)
+	(wire
+		(pts
+			(xy 204.47 91.44) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b52232-7e58-49bb-8e9a-764bada9beae")
+	)
+	(wire
+		(pts
 			(xy 105.41 50.8) (xy 105.41 53.34)
 		)
 		(stroke
@@ -6336,6 +6274,16 @@
 			(type default)
 		)
 		(uuid "50055900-9185-4c23-bd8e-c663b6ea72fa")
+	)
+	(wire
+		(pts
+			(xy 204.47 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cd31bc-2856-4be3-86fb-6824c327ad32")
 	)
 	(wire
 		(pts
@@ -6379,6 +6327,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 88.9) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d98417-0721-4ecc-885a-fa26eefc09f2")
+	)
+	(wire
+		(pts
 			(xy 172.72 63.5) (xy 218.44 63.5)
 		)
 		(stroke
@@ -6386,16 +6344,6 @@
 			(type default)
 		)
 		(uuid "57197dd2-a6bc-49d5-a6f3-a27e70cff2e3")
-	)
-	(wire
-		(pts
-			(xy 204.47 106.68) (xy 207.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d54034-c42a-4134-94dd-495ca7ecfe24")
 	)
 	(wire
 		(pts
@@ -6466,6 +6414,16 @@
 			(type default)
 		)
 		(uuid "6da5462e-6839-4e80-a5a8-3d27c086a208")
+	)
+	(wire
+		(pts
+			(xy 204.47 116.84) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dccdabe-c33d-40de-b18f-734aaa1b5515")
 	)
 	(wire
 		(pts
@@ -6559,6 +6517,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830b9b4b-1d9a-4b02-9c6b-c439241ba07a")
+	)
+	(wire
+		(pts
 			(xy 67.31 114.3) (xy 67.31 116.84)
 		)
 		(stroke
@@ -6619,16 +6587,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 114.3) (xy 207.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff340fa-4a6b-4cdd-bb17-7a9ebcb97ee3")
-	)
-	(wire
-		(pts
 			(xy 172.72 48.26) (xy 191.77 48.26)
 		)
 		(stroke
@@ -6639,13 +6597,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 207.01 88.9)
+			(xy 207.01 121.92) (xy 204.47 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "955bb80d-4459-4b60-a06f-62929b38ae6a")
+		(uuid "97471c21-580b-471b-9dbd-97dd9015ccb6")
 	)
 	(wire
 		(pts
@@ -6699,13 +6657,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 91.44) (xy 207.01 91.44)
+			(xy 204.47 109.22) (xy 207.01 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3110b35-7293-4cff-96b3-9dab100d0437")
+		(uuid "a4783600-5be6-4b78-b70f-508f9e3d6a00")
 	)
 	(wire
 		(pts
@@ -6829,6 +6787,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 104.14) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ff6b0e-de0a-45c4-9db3-958e111f5283")
+	)
+	(wire
+		(pts
 			(xy 121.92 58.42) (xy 132.08 58.42)
 		)
 		(stroke
@@ -6846,6 +6814,16 @@
 			(type default)
 		)
 		(uuid "b9367a86-4447-4298-a16f-63b91a931d84")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5b9143-b2f6-4263-a7a9-3bd9d20d2851")
 	)
 	(wire
 		(pts
@@ -6886,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "d3768c51-65f4-4507-b31a-c15ccf3c0cb0")
-	)
-	(wire
-		(pts
-			(xy 204.47 109.22) (xy 207.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d747adb5-7e2f-4bd8-8d29-dd011f383f31")
 	)
 	(wire
 		(pts
@@ -6949,16 +6917,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 119.38) (xy 207.01 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5a35a1-312f-44cf-9047-2902450ebf7b")
-	)
-	(wire
-		(pts
 			(xy 248.92 35.56) (xy 248.92 43.18)
 		)
 		(stroke
@@ -6966,26 +6924,6 @@
 			(type default)
 		)
 		(uuid "df9bc48a-fa1a-4358-aba8-0674cf3e5618")
-	)
-	(wire
-		(pts
-			(xy 204.47 101.6) (xy 207.01 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39d9eaa-771a-4ac0-bbce-20a3b13ed423")
-	)
-	(wire
-		(pts
-			(xy 204.47 99.06) (xy 207.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4558992-e814-4a01-8409-63bb96c905c6")
 	)
 	(wire
 		(pts
@@ -7029,6 +6967,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 121.92) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb020fd-b80d-417e-a03c-6e31b7615e12")
+	)
+	(wire
+		(pts
 			(xy 119.38 168.91) (xy 125.095 168.91)
 		)
 		(stroke
@@ -7046,16 +6994,6 @@
 			(type default)
 		)
 		(uuid "f34598bb-eba4-4774-9c37-d0de67ed73bd")
-	)
-	(wire
-		(pts
-			(xy 204.47 111.76) (xy 207.01 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53a2543-5138-45da-82a1-193f7d46974f")
 	)
 	(wire
 		(pts
@@ -7079,6 +7017,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc57206a-b3b9-4b25-bf38-baeb26f60955")
+	)
+	(wire
+		(pts
 			(xy 57.15 95.25) (xy 68.58 95.25)
 		)
 		(stroke
@@ -7096,6 +7044,17 @@
 			(type default)
 		)
 		(uuid "ff3ce927-dd3f-44bb-b185-016ac8052de9")
+	)
+	(label "ESP_RST"
+		(at 71.12 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56209393-792a-44c2-9d1f-96dca8b95cde")
 	)
 	(symbol
 		(lib_id "RG_Symbols:V+")
@@ -7181,7 +7140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 67.31 152.4 0)
 			(effects
 				(font
@@ -7267,7 +7226,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 99.06 180)
+		(at 201.93 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7275,7 +7234,7 @@
 		(dnp no)
 		(uuid "027f0f4a-6d20-4e08-a0d4-36bc17e48439")
 		(property "Reference" "#NetPort0437"
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7243,7 @@
 			)
 		)
 		(property "Value" "IO27"
-			(at 196.85 99.06 0)
+			(at 196.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7278,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7287,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7296,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7305,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 99.06 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7327,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 116.84 180)
+		(at 201.93 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7376,7 +7335,7 @@
 		(dnp no)
 		(uuid "06288ff2-d933-4d54-981b-e1e355e5cf14")
 		(property "Reference" "#NetPort0444"
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7344,7 @@
 			)
 		)
 		(property "Value" "IO21"
-			(at 196.85 116.84 0)
+			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,7 +7352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +7361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7379,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7388,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7397,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7406,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 116.84 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,107 +7741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1195e653-c617-482a-bc08-a812f89b625f")
-		(property "Reference" "#NetPort0445"
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "TX"
-			(at 196.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 201.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa2d052b-7069-445c-999e-916fbb09f0e8")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#NetPort0445")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RG_Controllers:ESP32-WROOM-32E")
 		(at 152.4 55.88 0)
 		(unit 1)
@@ -7982,12 +7840,6 @@
 		(pin "34"
 			(uuid "d9b9d0eb-4620-4a56-934f-5802d4df13f5")
 		)
-		(pin "48"
-			(uuid "6925231d-f388-4ae9-9678-5cd62afca190")
-		)
-		(pin "48"
-			(uuid "2acf8180-8925-42b9-aaaf-f116a3f4b21d")
-		)
 		(pin "6"
 			(uuid "166f508c-9933-4d12-b93c-5c8c5ca8182f")
 		)
@@ -8051,9 +7903,6 @@
 		(pin "16"
 			(uuid "de8eb7b8-4295-44d3-9f50-a3c79c2dfeaf")
 		)
-		(pin "41"
-			(uuid "74be0e32-c8a7-4188-9ea2-93314b1e3496")
-		)
 		(pin "2"
 			(uuid "5034ea7e-4837-41fd-99a7-53b0c304ecef")
 		)
@@ -8098,9 +7947,6 @@
 		)
 		(pin "26"
 			(uuid "71b90fe9-aaad-499c-b800-c7dc2866d15b")
-		)
-		(pin "45"
-			(uuid "ea70f1cb-19dd-4173-bd5d-c1c0014000df")
 		)
 		(pin "9"
 			(uuid "f612abfc-6419-4165-853c-9646de2956e1")
@@ -8547,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 76.835 191.77 0)
 			(effects
 				(font
@@ -8735,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 96.52 180)
+		(at 201.93 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8743,7 +8589,7 @@
 		(dnp no)
 		(uuid "2783de3c-d249-428e-8e4c-4d27b3cab8c1")
 		(property "Reference" "#NetPort0436"
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8598,7 @@
 			)
 		)
 		(property "Value" "IO26"
-			(at 196.85 96.52 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +8606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +8615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8633,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8642,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8651,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8660,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 96.52 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8682,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 101.6 180)
+		(at 201.93 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8844,7 +8690,7 @@
 		(dnp no)
 		(uuid "293739af-e16a-4ff7-88a0-6b613fae7ce2")
 		(property "Reference" "#NetPort0438"
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +8699,7 @@
 			)
 		)
 		(property "Value" "IO14"
-			(at 196.85 101.6 0)
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +8725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8734,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8743,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8752,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +8761,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 101.6 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9293,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 88.9 180)
+		(at 201.93 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9455,7 +9301,7 @@
 		(dnp no)
 		(uuid "450d5e08-00df-4a3e-989f-bffded24e22a")
 		(property "Reference" "#NetPort0433"
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9310,7 @@
 			)
 		)
 		(property "Value" "IO32"
-			(at 196.85 88.9 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9345,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9354,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9363,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9372,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 88.9 0)
+			(at 201.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 92.075 153.67 0)
 			(effects
 				(font
@@ -10175,7 +10021,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 114.3 180)
+		(at 201.93 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10183,7 +10029,7 @@
 		(dnp no)
 		(uuid "4df92b74-9981-45ed-9cbc-2ceda89be903")
 		(property "Reference" "#NetPort0443"
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +10038,7 @@
 			)
 		)
 		(property "Value" "IO5"
-			(at 196.85 114.3 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10073,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10082,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10091,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10100,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 114.3 0)
+			(at 201.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -11299,7 +11145,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 109.22 180)
+		(at 201.93 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11307,7 +11153,7 @@
 		(dnp no)
 		(uuid "7d419f05-e12a-4f04-abf8-da1dd2d31afd")
 		(property "Reference" "#NetPort0441"
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11162,7 @@
 			)
 		)
 		(property "Value" "IO5"
-			(at 196.85 109.22 0)
+			(at 196.85 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11324,7 +11170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,7 +11179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11342,7 +11188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11351,7 +11197,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11360,7 +11206,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +11215,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11378,7 +11224,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 109.22 0)
+			(at 201.93 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,7 +11263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 30.48 151.13 0)
 			(effects
 				(font
@@ -11503,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 91.44 180)
+		(at 201.93 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11511,7 +11357,7 @@
 		(dnp no)
 		(uuid "7ea551ce-27fc-439d-b94f-4863c48c79be")
 		(property "Reference" "#NetPort0434"
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,7 +11366,7 @@
 			)
 		)
 		(property "Value" "IO33"
-			(at 196.85 91.44 0)
+			(at 196.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +11383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +11392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11401,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +11410,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +11419,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +11428,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 91.44 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 91.44 66.04 0)
 			(effects
 				(font
@@ -12972,7 +12818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 62.23 109.22 0)
 			(effects
 				(font
@@ -13154,6 +13000,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
 					(reference "R406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 204.47 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f84f54-492b-4c31-9d0a-acd491ea7ca3")
+		(property "Reference" "#PWR0416"
+			(at 204.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cbe430f-0a9e-4248-8724-b951c9b42d6c")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -13733,16 +13682,16 @@
 		)
 	)
 	(symbol
-		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 121.92 180)
+		(lib_id "RG_Symbols:V+")
+		(at 203.2 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b7ea5bff-2cb9-4ed7-bd79-3611fd3cb758")
-		(property "Reference" "#NetPort0446"
-			(at 201.93 121.92 0)
+		(uuid "b8371d43-47e6-4cde-bbbc-f90cf1e01526")
+		(property "Reference" "#PWR0417"
+			(at 203.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13750,8 +13699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "RX"
-			(at 196.85 121.92 0)
+		(property "Value" "+3.3V"
+			(at 203.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 121.92 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,7 +13717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 121.92 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,44 +13725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 201.93 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,12 +13735,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eee07382-c5d8-4148-92cc-176c30fb6a88")
+			(uuid "fb5f1320-f436-45fd-a06d-f080e1816e74")
 		)
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#NetPort0446")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -13954,7 +13867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 168.91 87.63 0)
 			(effects
 				(font
@@ -14040,7 +13953,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 93.98 180)
+		(at 201.93 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14048,7 +13961,7 @@
 		(dnp no)
 		(uuid "bdb11d8b-7ea8-4260-8a48-7f58c837bc17")
 		(property "Reference" "#NetPort0435"
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,7 +13970,7 @@
 			)
 		)
 		(property "Value" "IO25"
-			(at 196.85 93.98 0)
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +13978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14074,7 +13987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +13996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +14005,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14101,7 +14014,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14110,7 +14023,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14119,7 +14032,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 93.98 0)
+			(at 201.93 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +14071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 127.635 153.67 0)
 			(effects
 				(font
@@ -14346,7 +14259,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 104.14 180)
+		(at 201.93 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14354,7 +14267,7 @@
 		(dnp no)
 		(uuid "c06dd7ea-af35-4519-8882-5e409e0b2b6a")
 		(property "Reference" "#NetPort0439"
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,7 +14276,7 @@
 			)
 		)
 		(property "Value" "IO12"
-			(at 196.85 104.14 0)
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14380,7 +14293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +14302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +14311,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14320,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +14329,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14338,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 104.14 0)
+			(at 201.93 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 143.51 196.85 0)
 			(effects
 				(font
@@ -14769,7 +14682,7 @@
 				)
 			)
 		)
-		(property "Value" "ETH Connected"
+		(property "Value" "ETH"
 			(at 223.52 51.435 0)
 			(effects
 				(font
@@ -15061,7 +14974,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 106.68 180)
+		(at 201.93 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15069,7 +14982,7 @@
 		(dnp no)
 		(uuid "da05f8c0-cb69-4958-9706-1952d97d6f74")
 		(property "Reference" "#NetPort0440"
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15078,7 +14991,7 @@
 			)
 		)
 		(property "Value" "IO3"
-			(at 196.85 106.68 0)
+			(at 196.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15086,7 +14999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15095,7 +15008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15104,7 +15017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15026,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15035,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +15044,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15053,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 106.68 0)
+			(at 201.93 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15179,7 +15092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -15282,7 +15195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
+		(property "Value" "GND1"
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -15383,7 +15296,7 @@
 				)
 			)
 		)
-		(property "Value" "MQTT Connected"
+		(property "Value" "MQTT"
 			(at 223.52 71.755 0)
 			(effects
 				(font
@@ -15673,7 +15586,7 @@
 	)
 	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
-		(at 201.93 111.76 180)
+		(at 201.93 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15681,7 +15594,7 @@
 		(dnp no)
 		(uuid "f881a2ca-4c6a-4933-8579-acc6d0307a0f")
 		(property "Reference" "#NetPort0442"
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,7 +15603,7 @@
 			)
 		)
 		(property "Value" "IO2"
-			(at 196.85 111.76 0)
+			(at 196.85 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15707,7 +15620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15725,7 +15638,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15647,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15743,7 +15656,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15752,7 +15665,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 201.93 111.76 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
