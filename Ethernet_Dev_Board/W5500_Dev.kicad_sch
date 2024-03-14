@@ -19659,7 +19659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RG_Crystal:Crystal_SMD_4Pin_7.0mmx5.0mm"
 			(at 179.07 154.94 0)
 			(effects
 				(font
@@ -22436,7 +22436,7 @@
 		(dnp no)
 		(uuid "c11f8470-3a48-4d1c-abfc-dfbcaa6a3ba8")
 		(property "Reference" "U202"
-			(at 139.065 108.585 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
