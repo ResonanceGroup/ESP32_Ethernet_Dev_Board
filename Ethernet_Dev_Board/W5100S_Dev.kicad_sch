@@ -7143,7 +7143,7 @@
 		)
 		(uuid "fdd4d0b9-a893-453c-b048-6b32c4160ea9")
 	)
-	(text_box "Will need to check if W5100S regulator comes on if chip does not have clock source"
+	(text_box "Will need to check if W5100S regulator comes on if chip does not have clock source\n\nUse Separate 1.2V regulator for Clock Oscillator"
 		(exclude_from_sim no)
 		(at 66.04 175.26 0)
 		(size 25.4 19.05)
