@@ -4370,6 +4370,25 @@
 		)
 		(uuid "ffdd3967-aa11-42d6-b24b-28b177f53317")
 	)
+	(text_box "Notes:\n1. Add 3.3V TVS Diodes for the 3.3VA and3.3VD rails"
+		(exclude_from_sim no)
+		(at 154.94 128.27 0)
+		(size 38.1 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3b80e7c1-4be8-41cb-8e5f-81e04d37a28b")
+	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
 		(at 156.845 111.76 0)
