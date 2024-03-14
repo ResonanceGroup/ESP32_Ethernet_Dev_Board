@@ -12773,7 +12773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RG_Crystal:Crystal_SMD_4Pin_3.2x2.5mm"
 			(at 29.21 193.04 0)
 			(effects
 				(font

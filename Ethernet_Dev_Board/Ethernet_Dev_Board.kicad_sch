@@ -2917,6 +2917,235 @@
 				)
 			)
 		)
+		(symbol "RG_Diode:TVS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TVS"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 20.32 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg." ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg. PN" ""
+				(at 12.7 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor PN" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0.94) (xy -1.372 2.134)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.6) (xy 1.905 -1.6)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -1.6)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.575) (xy -1.905 -1.6)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.372 1.575) (xy -1.905 1.575)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.372 1.575) (xy 2.438 2.667)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.6) (xy 0 1.575)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.134) (xy -1.372 2.134)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RG_Symbols:V+"
 			(power)
 			(pin_numbers hide)
@@ -3219,7 +3448,7 @@
 		)
 	)
 	(junction
-		(at 146.685 106.68)
+		(at 147.32 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0509d61a-8f52-4b8b-b5b6-aa6b9352ab6f")
@@ -3231,7 +3460,7 @@
 		(uuid "0a04a06b-6a31-4dbc-9f32-9b535834d6c4")
 	)
 	(junction
-		(at 126.365 117.475)
+		(at 127 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d6a640d-d5ec-4b9c-bb5a-c3213cf93a71")
@@ -3243,19 +3472,13 @@
 		(uuid "15543b8e-91e5-48f4-a93d-e0bb916043e7")
 	)
 	(junction
-		(at 167.005 106.68)
+		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22da3af9-2892-4bc0-8aef-0f61c053c089")
 	)
 	(junction
-		(at 117.475 127.635)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "262ba2fa-c0dc-40ce-b63e-1d1e617c6219")
-	)
-	(junction
-		(at 156.845 117.475)
+		(at 157.48 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b7cc9e7-a510-4508-bbb9-588018c1614a")
@@ -3267,16 +3490,16 @@
 		(uuid "512c0e6e-b009-442a-94db-15920853eb07")
 	)
 	(junction
-		(at 156.845 106.68)
+		(at 114.3 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "522b8c7b-da9b-413b-8f8f-91529b926d69")
+	)
+	(junction
+		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52f68a06-c19f-4ca7-825d-cc5942bfcdbb")
-	)
-	(junction
-		(at 117.475 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a0d6e43-8201-4cd4-b111-45142e1f53ee")
 	)
 	(junction
 		(at 177.8 106.68)
@@ -3285,49 +3508,67 @@
 		(uuid "5c0bd87b-1891-49a2-835c-815ce7790aa6")
 	)
 	(junction
+		(at 102.87 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d265ea7-f22e-40af-981f-e67684470f30")
+	)
+	(junction
 		(at 72.396 53.346)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce35f3a-8f29-4d02-9010-fe5139ef0024")
 	)
 	(junction
-		(at 91.44 106.68)
+		(at 80.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f99a40b-7acc-4e68-b340-29e11418749a")
 	)
 	(junction
-		(at 136.525 117.475)
+		(at 137.16 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74bf4237-949f-41ff-ad4c-a4cd73b194b7")
 	)
 	(junction
-		(at 126.365 138.43)
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764cc6fa-5db6-436a-ac00-82c96cc57468")
+	)
+	(junction
+		(at 127 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b5fec6-9ffd-4cb0-a30f-1f7f014dba2a")
 	)
 	(junction
-		(at 126.365 127.635)
+		(at 127 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8681f2fd-34a5-46e0-adb8-c8b62a571cac")
 	)
 	(junction
-		(at 136.525 106.68)
+		(at 137.16 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88841294-ad76-42ac-b9c5-8630be1f2a10")
 	)
 	(junction
-		(at 187.96 117.475)
+		(at 187.96 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bd96576-97ab-44a8-ad14-56eb22975e89")
 	)
 	(junction
-		(at 146.685 117.475)
+		(at 120.65 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a74efb14-6e61-4ea9-90f5-dd377cfc206b")
+	)
+	(junction
+		(at 147.32 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf8edd5-d407-44c4-bdd5-d289568fa2a6")
@@ -3339,7 +3580,7 @@
 		(uuid "b8f82f64-7606-4098-ad77-73bf64a3fc2f")
 	)
 	(junction
-		(at 136.525 138.43)
+		(at 137.16 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be51771f-dbd4-4acf-9986-8b1badf0470d")
@@ -3357,25 +3598,25 @@
 		(uuid "de8df7fa-040b-4d7c-848e-36b0c94da9ab")
 	)
 	(junction
-		(at 167.005 117.475)
+		(at 167.64 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e966f5f3-3c15-46c6-9ff8-75c3464bd23c")
 	)
 	(junction
-		(at 126.365 106.68)
+		(at 127 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9af1f81-7c08-4912-a6e9-00602b6b4180")
 	)
 	(junction
-		(at 136.525 127.635)
+		(at 137.16 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec863a6-f715-4f9b-8939-1968b250cc45")
 	)
 	(junction
-		(at 177.8 117.475)
+		(at 177.8 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3d3cd83-1e3d-429c-9772-f31616fa9a5f")
@@ -3432,16 +3673,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.125 106.68) (xy 117.475 106.68)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "016b4ad1-f753-4263-bfef-3a0a0b6ce97b")
-	)
-	(wire
-		(pts
 			(xy 110.49 53.34) (xy 88.906 53.34)
 		)
 		(stroke
@@ -3452,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 115.57) (xy 126.365 117.475)
+			(xy 127 115.57) (xy 127 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3462,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 106.68) (xy 146.685 106.68)
+			(xy 137.16 106.68) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3472,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 127.635) (xy 117.475 123.825)
+			(xy 120.65 128.27) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0.25)
@@ -3502,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 123.825) (xy 136.525 123.825)
+			(xy 143.51 124.46) (xy 137.16 124.46)
 		)
 		(stroke
 			(width 0.25)
@@ -3512,7 +3743,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 138.43) (xy 146.685 137.16)
+			(xy 93.98 106.68) (xy 102.87 106.68)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "14ad569d-c360-4dd2-8663-e2c9ffa25732")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d33a25-5d42-4115-b958-345aa1f298c1")
+	)
+	(wire
+		(pts
+			(xy 147.32 138.43) (xy 147.32 137.16)
 		)
 		(stroke
 			(width 0.25)
@@ -3522,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 129.54) (xy 136.525 127.635)
+			(xy 137.16 129.54) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -3532,13 +3783,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 115.57) (xy 146.685 117.475)
+			(xy 147.32 115.57) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(uuid "26f29149-649a-443b-8fad-eb8d9881fc2b")
+	)
+	(wire
+		(pts
+			(xy 102.87 158.75) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274470ff-cdfc-41f4-a9e1-85acffea4c50")
 	)
 	(wire
 		(pts
@@ -3562,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 137.16) (xy 126.365 138.43)
+			(xy 127 137.16) (xy 127 138.43)
 		)
 		(stroke
 			(width 0.25)
@@ -3582,7 +3843,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 115.57) (xy 156.845 117.475)
+			(xy 157.48 115.57) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3592,7 +3853,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 102.235) (xy 136.525 106.68)
+			(xy 137.16 102.87) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3612,7 +3873,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 106.68) (xy 156.845 106.68)
+			(xy 147.32 106.68) (xy 157.48 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3622,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 138.43) (xy 126.365 138.43)
+			(xy 137.16 138.43) (xy 127 138.43)
 		)
 		(stroke
 			(width 0.25)
@@ -3662,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 127.635) (xy 126.365 127.635)
+			(xy 137.16 128.27) (xy 127 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -3682,7 +3943,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 117.475) (xy 177.8 117.475)
+			(xy 187.96 118.11) (xy 177.8 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3732,17 +3993,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.125 127.635) (xy 117.475 127.635)
-		)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(uuid "50d82128-c2c8-4acb-b56e-02445c397265")
-	)
-	(wire
-		(pts
-			(xy 146.685 117.475) (xy 136.525 117.475)
+			(xy 147.32 118.11) (xy 137.16 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3752,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 117.475) (xy 126.365 117.475)
+			(xy 137.16 118.11) (xy 127 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3762,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 117.475) (xy 167.005 117.475)
+			(xy 177.8 118.11) (xy 167.64 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3782,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 117.475) (xy 146.685 117.475)
+			(xy 157.48 118.11) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3802,7 +4053,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 100.965 106.68)
+			(xy 93.98 128.27) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "5f9ceb93-f70b-4e29-92a7-f18ad11661da")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3812,13 +4073,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 127.635) (xy 136.525 127.635)
+			(xy 147.32 128.27) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
 		(uuid "62876bd9-0200-4744-92d4-5bbdeba6db4e")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "63611168-60f4-4cd2-b179-000c4866dc42")
 	)
 	(wire
 		(pts
@@ -3842,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 102.235) (xy 136.525 102.235)
+			(xy 143.51 102.87) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0.25)
@@ -3852,7 +4123,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 106.68) (xy 167.005 106.68)
+			(xy 157.48 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3862,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 91.44 106.68)
+			(xy 80.01 100.33) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3872,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 117.475) (xy 126.365 120.65)
+			(xy 127 118.11) (xy 127 120.65)
 		)
 		(stroke
 			(width 0.25)
@@ -3892,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 107.95) (xy 136.525 106.68)
+			(xy 137.16 107.95) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3902,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.845 107.95) (xy 156.845 106.68)
+			(xy 157.48 107.95) (xy 157.48 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -3912,7 +4183,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 138.43) (xy 136.525 137.16)
+			(xy 137.16 138.43) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0.25)
@@ -3942,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 129.54) (xy 126.365 127.635)
+			(xy 127 129.54) (xy 127 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -3952,7 +4223,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 115.57) (xy 136.525 117.475)
+			(xy 137.16 115.57) (xy 137.16 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -3962,7 +4233,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 129.54) (xy 146.685 127.635)
+			(xy 147.32 129.54) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -3972,7 +4243,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 138.43) (xy 136.525 138.43)
+			(xy 147.32 138.43) (xy 137.16 138.43)
 		)
 		(stroke
 			(width 0.25)
@@ -3992,6 +4263,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(uuid "9c5d2ead-7dea-48c2-bf0c-7a8bfb1912ac")
+	)
+	(wire
+		(pts
 			(xy 72.396 56.521) (xy 72.396 53.346)
 		)
 		(stroke
@@ -3999,6 +4280,16 @@
 			(type solid)
 		)
 		(uuid "9d89217a-6ec1-4fe9-acf1-96607cac2236")
+	)
+	(wire
+		(pts
+			(xy 114.3 146.05) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f91cc9-25ba-4939-ab6b-586378f13ebe")
 	)
 	(wire
 		(pts
@@ -4022,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 107.95) (xy 167.005 106.68)
+			(xy 167.64 107.95) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4032,7 +4323,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 106.68) (xy 117.475 106.68)
+			(xy 127 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4042,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 127.635) (xy 117.475 127.635)
+			(xy 127 128.27) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -4062,7 +4353,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127.635) (xy 91.44 106.68)
+			(xy 80.01 128.27) (xy 80.01 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4072,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 107.95) (xy 146.685 106.68)
+			(xy 147.32 107.95) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4092,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 107.95) (xy 126.365 106.68)
+			(xy 127 107.95) (xy 127 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4122,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 123.825) (xy 136.525 127.635)
+			(xy 137.16 124.46) (xy 137.16 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -4132,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 115.57) (xy 167.005 117.475)
+			(xy 167.64 115.57) (xy 167.64 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -4142,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 117.475) (xy 187.96 115.57)
+			(xy 187.96 118.11) (xy 187.96 115.57)
 		)
 		(stroke
 			(width 0.25)
@@ -4162,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 106.68) (xy 177.8 106.68)
+			(xy 167.64 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4182,7 +4473,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 117.475) (xy 187.96 117.475)
+			(xy 198.12 118.11) (xy 187.96 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -4192,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 106.68) (xy 117.475 100.33)
+			(xy 120.65 106.68) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0.25)
@@ -4202,7 +4493,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 127.635) (xy 91.44 127.635)
+			(xy 102.87 106.68) (xy 102.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1b9bb5-e39b-4639-87e8-80d6ad0af595")
+	)
+	(wire
+		(pts
+			(xy 83.82 128.27) (xy 80.01 128.27)
 		)
 		(stroke
 			(width 0.25)
@@ -4252,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 115.57) (xy 177.8 117.475)
+			(xy 177.8 115.57) (xy 177.8 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -4262,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 117.475) (xy 156.845 117.475)
+			(xy 167.64 118.11) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0.25)
@@ -4282,7 +4583,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 138.43) (xy 126.365 140.97)
+			(xy 127 138.43) (xy 127 140.97)
 		)
 		(stroke
 			(width 0.25)
@@ -4312,7 +4613,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 106.68) (xy 126.365 106.68)
+			(xy 137.16 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0.25)
@@ -4332,7 +4633,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 117.475) (xy 198.12 115.57)
+			(xy 198.12 118.11) (xy 198.12 115.57)
 		)
 		(stroke
 			(width 0.25)
@@ -4370,28 +4671,9 @@
 		)
 		(uuid "ffdd3967-aa11-42d6-b24b-28b177f53317")
 	)
-	(text_box "Notes:\n1. Add 3.3V TVS Diodes for the 3.3VA and3.3VD rails"
-		(exclude_from_sim no)
-		(at 154.94 128.27 0)
-		(size 38.1 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "3b80e7c1-4be8-41cb-8e5f-81e04d37a28b")
-	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 156.845 111.76 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4399,7 +4681,7 @@
 		(dnp no)
 		(uuid "0997a418-d888-4cc3-b600-bb531ed36e31")
 		(property "Reference" "C109"
-			(at 153.035 111.76 90)
+			(at 153.67 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4689,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 159.385 111.76 90)
+			(at 160.02 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4715,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +4724,7 @@
 			)
 		)
 		(property "Mfg." "Taiyo Yuden"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,7 +4733,7 @@
 			)
 		)
 		(property "Mfg. PN" "TMK107BJ104KA-T"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4742,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4751,7 @@
 			)
 		)
 		(property "Distributor PN" "587-1245-2-ND"
-			(at 156.845 111.76 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4776,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 167.005 111.76 0)
+		(at 167.64 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4502,7 +4784,7 @@
 		(dnp no)
 		(uuid "162ade53-2d69-49aa-b53f-1f42e9c35c27")
 		(property "Reference" "C110"
-			(at 163.83 111.76 90)
+			(at 164.465 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4792,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 169.545 111.76 90)
+			(at 170.18 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4800,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4818,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4827,7 @@
 			)
 		)
 		(property "Mfg." "Taiyo Yuden"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4836,7 @@
 			)
 		)
 		(property "Mfg. PN" "TMK107BJ104KA-T"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4845,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4854,7 @@
 			)
 		)
 		(property "Distributor PN" "587-1245-2-ND"
-			(at 167.005 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 136.525 133.35 0)
+		(at 137.16 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4605,7 +4887,7 @@
 		(dnp no)
 		(uuid "1935bb9a-f928-4ab9-b9b5-2113f75e402e")
 		(property "Reference" "C106"
-			(at 133.35 133.35 90)
+			(at 133.985 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4895,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 139.7 133.35 90)
+			(at 140.335 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4903,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4921,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4930,7 @@
 			)
 		)
 		(property "Mfg." "Samsung Electro-Mechanics"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4939,7 @@
 			)
 		)
 		(property "Mfg. PN" "CL10A226MP8NUNE"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4948,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4957,7 @@
 			)
 		)
 		(property "Distributor PN" "1276-1274-2-ND"
-			(at 136.525 133.35 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4982,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:MH2029-300Y")
-		(at 106.045 106.68 0)
+		(at 88.9 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4708,7 +4990,7 @@
 		(dnp no)
 		(uuid "23d98179-6712-4064-87af-53b3c37654b0")
 		(property "Reference" "FB101"
-			(at 106.045 103.505 0)
+			(at 88.9 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4998,7 @@
 			)
 		)
 		(property "Value" "MH2029-300Y"
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +5007,7 @@
 			)
 		)
 		(property "Footprint" "RG_Resistors_SMD:0805"
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mh.pdf"
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +5025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +5034,7 @@
 			)
 		)
 		(property "Mfg." "Bourns Inc."
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +5043,7 @@
 			)
 		)
 		(property "Mfg. PN" "MH2029-300Y"
-			(at 106.045 109.855 0)
+			(at 88.9 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +5051,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +5060,7 @@
 			)
 		)
 		(property "Distributor PN" "MH2029-300YTR-ND"
-			(at 106.045 106.68 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5291,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VD")
-		(at 117.475 125.095 0)
+		(at 120.65 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,7 +5299,7 @@
 		(dnp no)
 		(uuid "36741d7f-af20-43e7-a5c4-6117b8e15772")
 		(property "Reference" "#NetPort0104"
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5308,7 @@
 			)
 		)
 		(property "Value" "+3.3VD"
-			(at 117.475 120.015 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +5334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5343,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5352,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5361,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5370,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 117.475 125.095 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +6007,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 146.685 111.76 0)
+		(at 147.32 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5733,7 +6015,7 @@
 		(dnp no)
 		(uuid "47fe9824-ba20-4cc5-85ed-8510360834b2")
 		(property "Reference" "C107"
-			(at 143.51 111.76 90)
+			(at 144.145 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +6023,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 149.86 111.76 90)
+			(at 150.495 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +6031,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +6040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +6049,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +6058,7 @@
 			)
 		)
 		(property "Mfg." "Taiyo Yuden"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +6067,7 @@
 			)
 		)
 		(property "Mfg. PN" "TMK107BJ104KA-T"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +6076,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +6085,7 @@
 			)
 		)
 		(property "Distributor PN" "587-1245-2-ND"
-			(at 146.685 111.76 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,6 +6103,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 102.87 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4996528b-fece-4a56-90c0-a4a19160c333")
+		(property "Reference" "#PWR0110"
+			(at 102.87 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d5e1510-4cc5-484c-924f-07cf94ce1a70")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6723,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:3.3VD")
-		(at 146.685 123.825 0)
+		(at 147.32 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6346,7 +6731,7 @@
 		(dnp no)
 		(uuid "4fa4bb83-68e8-4e3e-9210-48f20214bf40")
 		(property "Reference" "J105"
-			(at 146.685 121.285 0)
+			(at 147.32 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6739,7 @@
 			)
 		)
 		(property "Value" "3.3VD"
-			(at 146.685 126.365 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6747,7 @@
 			)
 		)
 		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6774,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6783,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6792,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6801,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 146.685 123.825 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7027,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:MH2029-300Y")
-		(at 106.045 127.635 0)
+		(at 88.9 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6650,7 +7035,7 @@
 		(dnp no)
 		(uuid "659aed3f-396f-4f18-92e0-3e482ffb7210")
 		(property "Reference" "FB102"
-			(at 106.045 124.46 0)
+			(at 88.9 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +7043,7 @@
 			)
 		)
 		(property "Value" "MH2029-300Y"
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +7052,7 @@
 			)
 		)
 		(property "Footprint" "RG_Resistors_SMD:0805"
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +7061,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/mh.pdf"
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +7070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +7079,7 @@
 			)
 		)
 		(property "Mfg." "Bourns Inc."
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +7088,7 @@
 			)
 		)
 		(property "Mfg. PN" "MH2029-300Y"
-			(at 106.045 130.81 0)
+			(at 88.9 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +7096,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +7105,7 @@
 			)
 		)
 		(property "Distributor PN" "MH2029-300YTR-ND"
-			(at 106.045 127.635 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7233,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VA")
-		(at 117.475 101.6 0)
+		(at 120.65 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6856,7 +7241,7 @@
 		(dnp no)
 		(uuid "7581fe80-0ad4-40a4-8a73-d07553bfdcf5")
 		(property "Reference" "#NetPort0103"
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7250,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 117.475 96.52 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +7258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +7267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +7276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +7285,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +7294,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7303,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7312,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 117.475 101.6 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,6 +7327,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "#NetPort0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 114.3 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aafc75d-9310-4a18-be38-e8b3ee20bda3")
+		(property "Reference" "#PWR0109"
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 114.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 114.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4be8f13f-59eb-4903-a18d-9eb9978c7bbe")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -7393,7 +7881,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 126.365 133.35 0)
+		(at 127 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7401,7 +7889,7 @@
 		(dnp no)
 		(uuid "9b1cfc58-e1d6-40f1-80f6-b061db9f442f")
 		(property "Reference" "C103"
-			(at 123.19 133.35 90)
+			(at 123.825 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7897,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 129.54 133.35 90)
+			(at 130.175 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7905,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7923,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7932,7 @@
 			)
 		)
 		(property "Mfg." "Samsung Electro-Mechanics"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7941,7 @@
 			)
 		)
 		(property "Mfg. PN" "CL10A226MP8NUNE"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7950,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7959,7 @@
 			)
 		)
 		(property "Distributor PN" "1276-1274-2-ND"
-			(at 126.365 133.35 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +8190,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
-		(at 91.44 101.6 0)
+		(at 80.01 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7710,7 +8198,7 @@
 		(dnp no)
 		(uuid "aa66d432-8f50-440f-bd4f-b830fd8288f7")
 		(property "Reference" "#NetPort0102"
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +8207,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 96.52 0)
+			(at 80.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +8215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +8233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +8242,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +8251,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +8260,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +8269,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 91.44 101.6 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8291,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 146.685 133.35 0)
+		(at 147.32 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7811,7 +8299,7 @@
 		(dnp no)
 		(uuid "aec5a042-cc3b-4a8d-b69e-f89e6c5383fa")
 		(property "Reference" "C108"
-			(at 143.51 133.35 90)
+			(at 144.145 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +8307,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 149.86 133.35 90)
+			(at 150.495 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +8315,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +8324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,7 +8333,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +8342,7 @@
 			)
 		)
 		(property "Mfg." "Taiyo Yuden"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +8351,7 @@
 			)
 		)
 		(property "Mfg. PN" "TMK107BJ104KA-T"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +8360,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8369,7 @@
 			)
 		)
 		(property "Distributor PN" "587-1245-2-ND"
-			(at 146.685 133.35 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,8 +8393,112 @@
 		)
 	)
 	(symbol
+		(lib_id "RG_Diode:TVS")
+		(at 114.3 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c133b249-c3fb-4fe7-a464-9a957db14962")
+		(property "Reference" "TVS102"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 105.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RG_Diode:SMB-D"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88940/smbj3v3.pdf"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10.3VC DO214AA"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Vishay General Semiconductor - Diodes Division"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "SMBJ3V3-E3/5B"
+			(at 118.11 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "SMBJ3V3-E3/5BGITR-ND"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "9a828ffb-68fc-47a0-85b3-e06af2bd6bf6")
+		)
+		(pin "C"
+			(uuid "bfc9f36a-fb1c-49c7-9a64-2e560bd3f8b2")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "TVS102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
-		(at 126.365 120.65 0)
+		(at 127 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7915,7 +8507,7 @@
 		(fields_autoplaced yes)
 		(uuid "c45dd42b-93e9-43b0-8c95-abffd24264d1")
 		(property "Reference" "#PWR0105"
-			(at 126.365 127 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +8516,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 126.365 125.73 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8543,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8552,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +8561,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8570,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8579,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 126.365 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,8 +8803,112 @@
 		)
 	)
 	(symbol
+		(lib_id "RG_Diode:TVS")
+		(at 102.87 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a6ed11-96bb-4700-a11d-193c0532d48a")
+		(property "Reference" "TVS101"
+			(at 92.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RG_Diode:SMB-D"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88940/smbj3v3.pdf"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10.3VC DO214AA"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Vishay General Semiconductor - Diodes Division"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "SMBJ3V3-E3/5B"
+			(at 106.68 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "SMBJ3V3-E3/5BGITR-ND"
+			(at 107.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "48123ff6-8b0f-4671-bbdb-ff5801307dc6")
+		)
+		(pin "C"
+			(uuid "eba4626f-6d76-4a43-a6d0-65572c01fb3a")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "TVS101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:3.3VA")
-		(at 146.685 102.235 0)
+		(at 147.32 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8220,7 +8916,7 @@
 		(dnp no)
 		(uuid "d5d2f792-2092-46fe-b4ce-446b6232a0b1")
 		(property "Reference" "J104"
-			(at 146.685 104.775 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +8924,7 @@
 			)
 		)
 		(property "Value" "3.3VA"
-			(at 146.685 99.695 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8932,7 @@
 			)
 		)
 		(property "Footprint" "RG_Terminals:PAD_0.0638"
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8950,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8959,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8968,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8977,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8986,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 146.685 102.235 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +9008,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 126.365 140.97 0)
+		(at 127 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8321,7 +9017,7 @@
 		(fields_autoplaced yes)
 		(uuid "d91df3d8-7b65-4a3a-bb7c-e378267016ea")
 		(property "Reference" "#PWR0106"
-			(at 126.365 147.32 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,7 +9026,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 126.365 146.05 0)
+			(at 127 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +9035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +9044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +9053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +9062,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +9071,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +9080,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +9089,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 126.365 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +9520,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 136.525 111.76 0)
+		(at 137.16 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8832,7 +9528,7 @@
 		(dnp no)
 		(uuid "f8f290d7-0fdd-4659-8be9-1f1f880fc22b")
 		(property "Reference" "C105"
-			(at 133.35 111.76 90)
+			(at 133.985 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +9536,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 139.7 111.76 90)
+			(at 140.335 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,7 +9544,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +9553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +9562,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +9571,7 @@
 			)
 		)
 		(property "Mfg." "Samsung Electro-Mechanics"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +9580,7 @@
 			)
 		)
 		(property "Mfg. PN" "CL10A226MP8NUNE"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9589,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +9598,7 @@
 			)
 		)
 		(property "Distributor PN" "1276-1274-2-ND"
-			(at 136.525 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +9623,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 126.365 111.76 0)
+		(at 127 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8935,7 +9631,7 @@
 		(dnp no)
 		(uuid "ffd909af-1cae-477c-bcf3-ec5fce75d329")
 		(property "Reference" "C102"
-			(at 122.555 111.76 90)
+			(at 123.19 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +9639,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 129.54 111.76 90)
+			(at 130.175 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9647,7 @@
 			)
 		)
 		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9665,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +9674,7 @@
 			)
 		)
 		(property "Mfg." "Samsung Electro-Mechanics"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9683,7 @@
 			)
 		)
 		(property "Mfg. PN" "CL10A226MP8NUNE"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9692,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +9701,7 @@
 			)
 		)
 		(property "Distributor PN" "1276-1274-2-ND"
-			(at 126.365 111.76 0)
+			(at 127 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
