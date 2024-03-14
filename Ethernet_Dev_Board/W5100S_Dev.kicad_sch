@@ -6375,7 +6375,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 179.07) (xy 50.8 177.8)
+			(xy 50.8 176.53) (xy 50.8 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7065,7 +7065,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 170.18) (xy 17.78 168.91)
+			(xy 17.78 167.64) (xy 17.78 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7258,6 +7258,107 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "#NetPort0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 50.8 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01762122-a9e7-4565-ae5a-aed3fa460514")
+		(property "Reference" "#NetPort0308"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V"
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c73d30c6-13af-4f2f-81dc-ca2d3a729ea9")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
+					(reference "#NetPort0308")
 					(unit 1)
 				)
 			)
@@ -7767,107 +7868,6 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "R313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VA")
-		(at 17.78 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12699853-134b-4323-aaf9-501049f95643")
-		(property "Reference" "#NetPort0301"
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.2VO"
-			(at 17.78 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 17.78 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "883243e5-cf6d-4f43-95b2-4161941f8ef1")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#NetPort0301")
 					(unit 1)
 				)
 			)
@@ -9017,107 +9017,6 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VA")
-		(at 50.8 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "366300fa-02e8-4f92-9970-dc9bd78cde1a")
-		(property "Reference" "#NetPort0308"
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1.2VO"
-			(at 50.8 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 50.8 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d1546df-c996-4cee-97ed-0d2cf187ba94")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#NetPort0308")
 					(unit 1)
 				)
 			)
@@ -15926,6 +15825,107 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 17.78 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e18d3adf-c4e5-4b8e-b026-11317345d0eb")
+		(property "Reference" "#NetPort0301"
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V"
+			(at 17.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 17.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a897da1-9d30-4565-a353-60d5795dfce6")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
+					(reference "#NetPort0301")
 					(unit 1)
 				)
 			)

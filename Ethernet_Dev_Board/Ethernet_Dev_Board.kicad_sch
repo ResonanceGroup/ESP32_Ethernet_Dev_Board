@@ -2389,6 +2389,177 @@
 				)
 			)
 		)
+		(symbol "RG_Capacitors:CAP-0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RG_Capacitors_SMD:0603"
+				(at -1.778 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg." ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg. PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP-0603_1_0"
+				(polyline
+					(pts
+						(xy -1.905 -0.552) (xy 1.905 -0.552)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.559) (xy 1.905 0.559)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.61) (xy 0 -1.276)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.245) (xy 0 0.61)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RG_Connectors:RB1-125BAG1A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3146,6 +3317,230 @@
 				)
 			)
 		)
+		(symbol "RG_Regulators:TLV74112PDBVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.2V"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RG_TO_SOT_SMD:SOT23-5P65"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv741p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1710409561629"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC REG LINEAR 1.2V 150MA SOT23-5"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg." "Texas Instruments"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg. PN" "TLV74112PDBVR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "Digikey"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor PN" "296-49998-2-ND"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV74112PDBVR_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy -6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -7.62 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RG_Symbols:V+"
 			(power)
 			(pin_numbers hide)
@@ -3502,6 +3897,12 @@
 		(uuid "52f68a06-c19f-4ca7-825d-cc5942bfcdbb")
 	)
 	(junction
+		(at 218.44 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54275032-e487-4597-a78b-ac2cf9b7dd18")
+	)
+	(junction
 		(at 177.8 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,10 +3987,22 @@
 		(uuid "be51771f-dbd4-4acf-9986-8b1badf0470d")
 	)
 	(junction
+		(at 220.98 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7033fd3-7196-4ebf-8487-fdf99ce37e4a")
+	)
+	(junction
 		(at 119.38 73.666)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d67f60bd-c7f9-45d9-9b92-6cba4f9586b3")
+	)
+	(junction
+		(at 251.46 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddb6bc92-bb9d-441a-9aac-a78e11473831")
 	)
 	(junction
 		(at 88.906 53.346)
@@ -3823,6 +4236,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 133.35) (xy 251.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca92f84-4a12-4b62-a2f8-9c14ba9896e6")
+	)
+	(wire
+		(pts
+			(xy 220.98 133.35) (xy 223.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb8fb5e-9b85-416e-96ca-9c63b91a79a1")
+	)
+	(wire
+		(pts
 			(xy 127 137.16) (xy 127 138.43)
 		)
 		(stroke
@@ -3840,6 +4273,16 @@
 			(type solid)
 		)
 		(uuid "2dc7692f-cf6e-4b7d-bfc6-46a6482e044d")
+	)
+	(wire
+		(pts
+			(xy 220.98 137.16) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7e62fa-c945-4dd4-8030-196771f6a449")
 	)
 	(wire
 		(pts
@@ -3900,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "416c86b1-bba4-44ca-8082-817252759442")
+	)
+	(wire
+		(pts
+			(xy 251.46 148.59) (xy 251.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444d488c-91ed-48ed-a37a-716db48faa46")
 	)
 	(wire
 		(pts
@@ -4053,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 133.35) (xy 218.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0073fe-137e-430c-8068-4fe3b1331fd5")
+	)
+	(wire
+		(pts
 			(xy 93.98 128.27) (xy 114.3 128.27)
 		)
 		(stroke
@@ -4193,6 +4656,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 137.16) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8945932e-e8d0-47e1-804f-d6e7cecaeb07")
+	)
+	(wire
+		(pts
 			(xy 139.706 53.346) (xy 133.356 53.346)
 		)
 		(stroke
@@ -4200,6 +4673,16 @@
 			(type solid)
 		)
 		(uuid "8a084ddc-3e1c-4fd5-8d19-a448973bf0ce")
+	)
+	(wire
+		(pts
+			(xy 218.44 148.59) (xy 218.44 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2e384b-cd1a-4016-80eb-28a8283a0cb3")
 	)
 	(wire
 		(pts
@@ -4240,6 +4723,16 @@
 			(type solid)
 		)
 		(uuid "9900da3c-a424-4d20-b821-3d019fbe18b0")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998ac60d-1bf3-49a6-a14b-94afe9e23bde")
 	)
 	(wire
 		(pts
@@ -4333,6 +4826,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 137.16) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ae966e-06cc-4e24-b579-e2ba1386c8e7")
+	)
+	(wire
+		(pts
 			(xy 127 128.27) (xy 120.65 128.27)
 		)
 		(stroke
@@ -4343,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 137.16) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3f7ac7-678c-4a4a-a153-5682f419484c")
+	)
+	(wire
+		(pts
 			(xy 187.96 106.68) (xy 187.96 107.95)
 		)
 		(stroke
@@ -4350,6 +4863,16 @@
 			(type solid)
 		)
 		(uuid "ac3926d1-8bd3-4ab7-a1ea-5cf199e3253e")
+	)
+	(wire
+		(pts
+			(xy 241.3 133.35) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7b1968-d7c1-473d-b2aa-73ada8e1c6e7")
 	)
 	(wire
 		(pts
@@ -4440,6 +4963,16 @@
 			(type solid)
 		)
 		(uuid "d1bcf17d-c307-4d66-8ec1-1a99e404f1cc")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bba633-2caf-4b5f-bc35-fed0b27e22be")
 	)
 	(wire
 		(pts
@@ -4660,6 +5193,16 @@
 			(type solid)
 		)
 		(uuid "f9e3ea90-551e-40af-8abb-53298ade14af")
+	)
+	(wire
+		(pts
+			(xy 251.46 127) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb064ed0-fc0a-452d-8a51-342a0d6e2f1a")
 	)
 	(wire
 		(pts
@@ -5084,6 +5627,109 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 218.44 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "240c3cfe-1040-459f-85c0-27c0e7ea99d5")
+		(property "Reference" "#PWR0109"
+			(at 218.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 218.44 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0001958-16dd-4526-be02-a9a62187f7b4")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
 		(at 133.356 62.871 0)
 		(unit 1)
@@ -5494,6 +6140,109 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
+		(at 218.44 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37be1174-19ea-4e83-ae8d-3aea72f0e0c9")
+		(property "Reference" "C114"
+			(at 215.265 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 221.615 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RG_Capacitors_SMD:0603"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP-0603"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Taiyo Yuden"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "TMK107BJ104KA-T"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "587-1245-2-ND"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd1e3a9b-8f15-444f-a442-d576fcaf2659")
+		)
+		(pin "2"
+			(uuid "3d148f99-d1c7-42dc-870f-fa717c001da2")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "C114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:AZ1117")
 		(at 119.38 54.61 0)
 		(unit 1)
@@ -5608,7 +6357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3abb80cf-2339-479e-bf49-e4b1f88f3d86")
-		(property "Reference" "#NetPort0108"
+		(property "Reference" "#NetPort0110"
 			(at 252.73 67.31 0)
 			(effects
 				(font
@@ -5694,7 +6443,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0108")
+					(reference "#NetPort0110")
 					(unit 1)
 				)
 			)
@@ -5812,7 +6561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dadebca-e9c7-4fb9-9978-2f4e6f35f075")
-		(property "Reference" "#NetPort0107"
+		(property "Reference" "#NetPort0109"
 			(at 252.73 64.77 0)
 			(effects
 				(font
@@ -5898,7 +6647,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0107")
+					(reference "#NetPort0109")
 					(unit 1)
 				)
 			)
@@ -5913,7 +6662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a44429-62b5-40cc-b258-5033fda20f9b")
-		(property "Reference" "#NetPort0110"
+		(property "Reference" "#NetPort0112"
 			(at 253.365 72.39 0)
 			(effects
 				(font
@@ -5999,7 +6748,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0110")
+					(reference "#NetPort0112")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4996528b-fece-4a56-90c0-a4a19160c333")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0104"
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -6205,7 +6954,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0110")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6321,7 +7070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c966362-7218-48e4-8130-b4b387cd596f")
-		(property "Reference" "C115"
+		(property "Reference" "C117"
 			(at 249.555 109.22 90)
 			(effects
 				(font
@@ -6409,7 +7158,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "C115")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59811823-d532-4fde-8bb4-ec56ab5ec7ca")
-		(property "Reference" "#NetPort0106"
+		(property "Reference" "#NetPort0107"
 			(at 228.6 55.88 0)
 			(effects
 				(font
@@ -7019,7 +7768,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0106")
+					(reference "#NetPort0107")
 					(unit 1)
 				)
 			)
@@ -7123,6 +7872,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "FB102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 251.46 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e03a08e-1128-43d3-9d00-43bc11381a98")
+		(property "Reference" "#PWR0112"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0315647b-af48-4a09-a4e1-9cedd02d8a7d")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7342,7 +8194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aafc75d-9310-4a18-be38-e8b3ee20bda3")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0105"
 			(at 114.3 171.45 0)
 			(effects
 				(font
@@ -7429,7 +8281,108 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0109")
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 251.46 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "861808a7-8e0a-47db-928a-05304e623c46")
+		(property "Reference" "#NetPort0108"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V"
+			(at 251.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd07c16-2ddb-43b5-ba70-f1fc7cb02f76")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#NetPort0108")
 					(unit 1)
 				)
 			)
@@ -7583,7 +8536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f02ad61-56dd-4774-b493-1aea1bf65207")
-		(property "Reference" "#NetPort0109"
+		(property "Reference" "#NetPort0111"
 			(at 253.365 69.85 0)
 			(effects
 				(font
@@ -7669,7 +8622,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0109")
+					(reference "#NetPort0111")
 					(unit 1)
 				)
 			)
@@ -7787,7 +8740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99cef83e-30c6-4129-a127-9e561c7a3014")
-		(property "Reference" "#NetPort0101"
+		(property "Reference" "#NetPort0102"
 			(at 88.906 51.441 0)
 			(effects
 				(font
@@ -7873,7 +8826,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0101")
+					(reference "#NetPort0102")
 					(unit 1)
 				)
 			)
@@ -7992,7 +8945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a795a7e8-6e5a-4710-b1f3-dd5cdc860572")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0113"
 			(at 252.73 121.92 0)
 			(effects
 				(font
@@ -8079,7 +9032,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0108")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -8095,7 +9048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a963d398-d42f-4f89-b436-5f1a2380a831")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0110"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -8182,7 +9135,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0107")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8197,7 +9150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa66d432-8f50-440f-bd4f-b830fd8288f7")
-		(property "Reference" "#NetPort0102"
+		(property "Reference" "#NetPort0101"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -8283,7 +9236,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#NetPort0102")
+					(reference "#NetPort0101")
 					(unit 1)
 				)
 			)
@@ -8387,6 +9340,107 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 218.44 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5a02f70-d568-4149-9297-6b930cf745ce")
+		(property "Reference" "#NetPort0106"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a21fb4-2198-46b5-963b-eb06c341e25b")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#NetPort0106")
 					(unit 1)
 				)
 			)
@@ -8506,7 +9560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c45dd42b-93e9-43b0-8c95-abffd24264d1")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 127 127 0)
 			(effects
 				(font
@@ -8593,7 +9647,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0105")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -8797,6 +9851,118 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RG_Regulators:TLV74112PDBVR")
+		(at 232.41 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2d9ae6-b3bc-4300-aa2a-6c8bc719c670")
+		(property "Reference" "U102"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2V"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RG_TO_SOT_SMD:SOT23-5P65"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv741p.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1710409561629"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 1.2V 150MA SOT23-5"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Texas Instruments"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "TLV74112PDBVR"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "296-49998-2-ND"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d2a28e1f-8f63-4299-8ce7-2df8c2f0d8ba")
+		)
+		(pin "2"
+			(uuid "7611f4cd-2f60-4fa0-8577-7208c8aec786")
+		)
+		(pin "1"
+			(uuid "9a232a35-7931-4061-8647-5431b157feb2")
+		)
+		(pin "3"
+			(uuid "6fdb9259-e35d-4829-868b-bd3683886d55")
+		)
+		(pin "5"
+			(uuid "8023fda6-0dbe-4491-a4c3-f5d903ef55df")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -9016,7 +10182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d91df3d8-7b65-4a3a-bb7c-e378267016ea")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0108"
 			(at 127 147.32 0)
 			(effects
 				(font
@@ -9103,7 +10269,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0106")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -9218,7 +10384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b71164-029a-4bd5-a216-0a6dfba16908")
-		(property "Reference" "C114"
+		(property "Reference" "C115"
 			(at 224.79 86.36 90)
 			(effects
 				(font
@@ -9306,7 +10472,111 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "C114")
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RG_Capacitors:CAP-0603")
+		(at 251.46 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbd21234-c9f2-428d-a992-768a6f970701")
+		(property "Reference" "C116"
+			(at 247.65 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 255.27 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RG_Capacitors_SMD:0603"
+			(at 249.682 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Samsung Electro-Mechanics"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "CL10B105KP8NFNC"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "1276-1945-2-ND"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0840aa6-2432-4946-816a-43d1f6e21b9a")
+		)
+		(pin "2"
+			(uuid "688184bc-9edc-4a73-90cd-dcad97d06a40")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -9322,7 +10592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1dc498c-d969-4cfa-a06f-6928b86c7bdf")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 119.38 86.36 0)
 			(effects
 				(font
@@ -9409,7 +10679,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -9513,6 +10783,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
 					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 243.84 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4c03e75-8f05-483c-a127-a197e22ccc23")
+		(property "Reference" "#PWR0111"
+			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 243.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d20e596-4ae4-4837-918f-dd6910339b9b")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
