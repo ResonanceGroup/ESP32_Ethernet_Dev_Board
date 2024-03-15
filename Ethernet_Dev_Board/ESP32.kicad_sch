@@ -10333,7 +10333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53556138-a318-4073-9954-49fecac74511")
-		(property "Reference" "#NetPort0447"
+		(property "Reference" "#NetPort0445"
 			(at 210.82 19.05 0)
 			(effects
 				(font
@@ -10419,7 +10419,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#NetPort0447")
+					(reference "#NetPort0445")
 					(unit 1)
 				)
 			)
@@ -11161,7 +11161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "IO5"
+		(property "Value" "IO15"
 			(at 196.85 111.76 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "IO5"
+		(property "Value" "IO15"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -12743,7 +12743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a097dd36-a19e-45c2-85c6-7b969541701d")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR0417"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -12793,7 +12793,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#PWR0415")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -13015,7 +13015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f84f54-492b-4c31-9d0a-acd491ea7ca3")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR0415"
 			(at 204.47 130.81 0)
 			(effects
 				(font
@@ -13102,7 +13102,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#PWR0416")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -13422,7 +13422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af5f05a7-d1fe-494e-b14e-806377b60666")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0416"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -13472,7 +13472,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#PWR0414")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -13690,7 +13690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8371d43-47e6-4cde-bbbc-f90cf1e01526")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR0414"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -13740,7 +13740,7 @@
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "#PWR0417")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
