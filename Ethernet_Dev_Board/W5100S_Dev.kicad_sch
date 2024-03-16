@@ -11716,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3.3VA2"
 			(at 109.22 81.28 0)
 			(effects
 				(font

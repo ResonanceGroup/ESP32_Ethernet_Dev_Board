@@ -14156,6 +14156,28 @@
 		)
 		(uuid "fe6ea019-664f-4bd7-ab9d-843630dc8db6")
 	)
+	(label "RD-"
+		(at 240.03 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3129913f-2eb2-47e6-ad06-2a649ba99802")
+	)
+	(label "RD+"
+		(at 240.03 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64a5aa35-e52a-4cd9-8490-3e331bebd6d7")
+	)
 	(symbol
 		(lib_id "RG_resistors:RES-0603")
 		(at 179.07 85.09 0)
