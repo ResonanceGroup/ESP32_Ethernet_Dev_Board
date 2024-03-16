@@ -187,97 +187,6 @@
 				)
 			)
 		)
-		(symbol "LED_Controller_Hardware-eagle-import:+3.3VD"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#NetPort"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3VD_1_0"
-				(polyline
-					(pts
-						(xy -3.334 3.81) (xy 3.334 3.81)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 1.27 90)
-					(length 2.54)
-					(name "+3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LED_Controller_Hardware-eagle-import:ACTLED"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4925,16 +4834,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 157.48) (xy 78.74 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023a1352-8b68-41fb-b173-eab5b51e45f8")
-	)
-	(wire
-		(pts
 			(xy 223.52 143.51) (xy 218.44 143.51)
 		)
 		(stroke
@@ -5212,6 +5111,16 @@
 			(type default)
 		)
 		(uuid "28853d4e-11c8-4932-9ee0-2f6560abce35")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 78.74 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a31462-ce55-4113-9454-72470372a1ff")
 	)
 	(wire
 		(pts
@@ -7294,109 +7203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 78.74 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12945d53-9209-4662-b82a-e94d00808c98")
-		(property "Reference" "#PWR0304"
-			(at 78.74 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 78.74 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 78.74 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abb7ad70-75fb-49d5-854a-85d4b03c0142")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#PWR0304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
 		(at 240.03 137.16 0)
 		(unit 1)
@@ -7714,16 +7520,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 208.28 128.27 0)
+		(at 78.74 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e31f288-a54c-49da-bd0e-03b3c6989e23")
-		(property "Reference" "#PWR0317"
-			(at 208.28 134.62 0)
+		(uuid "1f50e0b0-d884-4d1f-99e5-fd48945d6bc4")
+		(property "Reference" "#PWR0304"
+			(at 78.74 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,8 +7537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDS"
-			(at 208.28 133.35 0)
+		(property "Value" "GND1"
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,7 +7565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7574,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7583,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7592,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7601,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 208.28 128.27 0)
+			(at 78.74 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7804,12 +7610,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36d433ef-62c4-448d-b8d3-7a1baacef8b6")
+			(uuid "f54ae754-ef40-40d1-97fa-1049107c18fc")
 		)
 		(instances
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#PWR0317")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -8634,208 +8440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VD")
-		(at 256.54 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48e63475-e691-4620-8471-57d2d0605a7a")
-		(property "Reference" "#NetPort0322"
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VD"
-			(at 256.54 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "565b321a-4be4-4bd3-a05f-ce8118586a10")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#NetPort0322")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:+3.3VA")
-		(at 176.53 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a9a6581-3c3e-467d-b166-229e986e6f29")
-		(property "Reference" "#NetPort0309"
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 176.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" ""
-			(at 176.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c807f1a5-34df-47d0-b666-41980690eab5")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
-					(reference "#NetPort0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RG_Connectors:RB1-125BAG1A")
 		(at 92.71 87.63 0)
 		(mirror y)
@@ -9071,6 +8675,109 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "#NetPort0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 208.28 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f121b23-d153-4fb4-800d-f38390c436a0")
+		(property "Reference" "#PWR0317"
+			(at 208.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 208.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1569c37a-16a4-4c25-8aa4-232b0d13d177")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -13014,6 +12721,107 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 256.54 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08121df-9f7d-4867-b00d-d864583b0618")
+		(property "Reference" "#NetPort0325"
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA2"
+			(at 256.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d49c34-2468-4afb-8441-01027d692fcb")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
+					(reference "#NetPort0325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDS")
 		(at 213.36 63.5 0)
 		(unit 1)
@@ -14035,6 +13843,107 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
 					(reference "R311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 176.53 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7af65cb-ab7d-4145-8087-532dc00a9a4b")
+		(property "Reference" "#NetPort0324"
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7bb6598-f98a-46df-bc6c-4937215d1dfc")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/e515d953-e2e5-40ce-8d77-bb09cabdad3d"
+					(reference "#NetPort0324")
 					(unit 1)
 				)
 			)

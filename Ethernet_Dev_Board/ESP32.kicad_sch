@@ -5,6 +5,306 @@
 	(uuid "d7c9acc0-6743-488c-a15c-e306425ebcb8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74LVC1G11W6_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G11W6"
+				(at 5.842 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RG_TO_SOT_SMD:SOT23-6"
+				(at -0.508 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G11.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg." "Diodes Incorporated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg. PN" "74LVC1G11W6-7"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor PN" "74LVC1G11W6-7TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G11W6_1_1_0"
+				(polyline
+					(pts
+						(xy -5.086 -3.81) (xy 1.264 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.086 3.81) (xy -5.086 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.086 3.81) (xy 1.264 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.264 -3.81)
+					(mid 5.0739 0.0001)
+					(end 1.2638 3.81)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC1G11W6_1_2_0"
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.25)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED_Controller_Hardware-eagle-import:+3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -5064,7 +5364,7 @@
 				)
 			)
 		)
-		(symbol "RG_Logic:74AUP1T08GWH"
+		(symbol "RG_Logic:74LVC1G11W6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5076,8 +5376,8 @@
 					)
 				)
 			)
-			(property "Value" "74AUP1T08GWH"
-				(at 0 0 0)
+			(property "Value" "74LVC1G11W6"
+				(at 5.842 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5085,8 +5385,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "RG_TO_SOT_SMD:SOT23-5P65"
-				(at 0 0 0)
+			(property "Footprint" "RG_TO_SOT_SMD:SOT23-6"
+				(at -0.508 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5094,7 +5394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T08.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G11.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5112,7 +5412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfg." "Nexperia USA Inc."
+			(property "Mfg." "Diodes Incorporated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5121,7 +5421,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfg. PN" "74AUP1T08GWH"
+			(property "Mfg. PN" "74LVC1G11W6-7"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -5138,7 +5438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor PN" "1727-7724-2-ND"
+			(property "Distributor PN" "74LVC1G11W6-7TR-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5155,7 +5455,7 @@
 					)
 				)
 			)
-			(symbol "74AUP1T08GWH_1_0"
+			(symbol "74LVC1G11W6_1_0"
 				(polyline
 					(pts
 						(xy -5.086 -3.81) (xy 1.264 -3.81)
@@ -5205,7 +5505,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.626 2.54 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -5223,16 +5523,16 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "C"
+					(name "B"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5258,8 +5558,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "74AUP1T08GWH_2_0"
+			(symbol "74LVC1G11W6_2_0"
 				(polyline
 					(pts
 						(xy -3.81 -5.08) (xy -3.81 5.08)
@@ -5318,7 +5636,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5858,6 +6176,12 @@
 		)
 	)
 	(junction
+		(at 100.33 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0392f589-d301-4c43-a378-cafcce719010")
+	)
+	(junction
 		(at 67.31 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5912,7 +6236,7 @@
 		(uuid "e1b7033d-4ce7-4972-86b9-e140addc6e92")
 	)
 	(junction
-		(at 127.635 133.35)
+		(at 160.02 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff01119d-f0e8-4602-9654-76cf31bf4470")
@@ -5977,6 +6301,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 161.29) (xy 100.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cd85c0-2362-47cc-9467-c0ca228f6ada")
+	)
+	(wire
+		(pts
 			(xy 204.47 93.98) (xy 207.01 93.98)
 		)
 		(stroke
@@ -6037,7 +6371,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 144.78) (xy 127.635 148.59)
+			(xy 160.02 139.7) (xy 160.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6087,7 +6421,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 133.35) (xy 103.505 133.35)
+			(xy 100.33 168.91) (xy 104.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bd281b-cd62-480d-8978-72de3201d128")
+	)
+	(wire
+		(pts
+			(xy 124.46 128.27) (xy 135.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6117,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 133.35) (xy 129.54 133.35)
+			(xy 160.02 128.27) (xy 161.925 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6367,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 133.35) (xy 92.075 148.59)
+			(xy 124.46 128.27) (xy 124.46 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6447,7 +6791,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 133.35) (xy 127.635 137.16)
+			(xy 160.02 128.27) (xy 160.02 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6507,16 +6851,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 166.37) (xy 80.01 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813f1d19-f7e6-4779-8eaf-f7a223a912b6")
-	)
-	(wire
-		(pts
 			(xy 204.47 96.52) (xy 207.01 96.52)
 		)
 		(stroke
@@ -6534,6 +6868,16 @@
 			(type default)
 		)
 		(uuid "8386bd3c-55de-4774-b402-daa670015f59")
+	)
+	(wire
+		(pts
+			(xy 76.835 160.655) (xy 76.835 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fef82a-4fbb-4cd0-9265-e1de024e407f")
 	)
 	(wire
 		(pts
@@ -6817,6 +7161,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 146.05) (xy 100.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5af818-ed4e-4543-84f8-016dccc54a54")
+	)
+	(wire
+		(pts
 			(xy 204.47 101.6) (xy 207.01 101.6)
 		)
 		(stroke
@@ -6827,13 +7181,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 133.35) (xy 127.635 133.35)
+			(xy 148.59 128.27) (xy 160.02 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3537159-6dc0-4c65-9328-5e949db9d613")
+	)
+	(wire
+		(pts
+			(xy 96.52 168.91) (xy 100.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4932fb4-dce1-4bc5-9972-80f2b52896db")
 	)
 	(wire
 		(pts
@@ -6844,16 +7208,6 @@
 			(type default)
 		)
 		(uuid "c715ec9b-591e-4c1a-adc7-55e5d2772790")
-	)
-	(wire
-		(pts
-			(xy 76.835 160.655) (xy 76.835 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2522721-0352-45ad-b59a-b21ba313f404")
 	)
 	(wire
 		(pts
@@ -6964,6 +7318,16 @@
 			(type default)
 		)
 		(uuid "ecc06efe-42a4-4744-b7b9-0afb7d1176bd")
+	)
+	(wire
+		(pts
+			(xy 80.01 166.37) (xy 104.14 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda5827e-3337-4d5f-9a09-2bedc7ed7389")
 	)
 	(wire
 		(pts
@@ -7427,120 +7791,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RG_Logic:74AUP1T08GWH")
-		(at 111.76 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0763fc01-9a67-465e-b8c0-b2cf9d1fc237")
-		(property "Reference" "U401"
-			(at 111.76 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AUP1T08GWH"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RG_TO_SOT_SMD:SOT23-5P65"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T08.pdf"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." "Nexperia USA Inc."
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" "74AUP1T08GWH"
-			(at 111.76 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" "1727-7724-2-ND"
-			(at 111.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9812a559-ec8a-46a9-a0a4-359065be4f26")
-		)
-		(pin "1"
-			(uuid "2b83a2a7-53f6-4397-b5cb-be202e4c5376")
-		)
-		(pin "3"
-			(uuid "d85f00ea-5689-498c-938a-c86a7641f8a4")
-		)
-		(pin "4"
-			(uuid "fd005943-658d-4af2-af76-2c7696240ddb")
-		)
-		(pin "5"
-			(uuid "6219e6ee-a8d3-4b97-808f-412c24401555")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "U401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:IO0")
-		(at 132.08 133.35 0)
+		(at 164.465 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7548,7 +7800,7 @@
 		(dnp no)
 		(uuid "088ed21e-7fdc-4655-86bb-bc62f228e6ce")
 		(property "Reference" "#NetPort0418"
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7809,7 @@
 			)
 		)
 		(property "Value" "IO0"
-			(at 135.255 133.35 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7844,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7853,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +7862,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7871,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 132.08 133.35 0)
+			(at 164.465 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8317,7 @@
 	)
 	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:PROGRAM")
-		(at 109.855 133.35 0)
+		(at 142.24 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8073,7 +8325,7 @@
 		(dnp no)
 		(uuid "20db6fb7-8d60-4c44-82a5-2d4cd908e029")
 		(property "Reference" "S402"
-			(at 109.855 125.73 0)
+			(at 142.24 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8333,7 @@
 			)
 		)
 		(property "Value" "PROGRAM"
-			(at 109.855 137.795 0)
+			(at 142.24 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8341,7 @@
 			)
 		)
 		(property "Footprint" "RG_Switches:SW_TS04-66-65-BK-260-SMT"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8350,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cuidevices.com/product/resource/ts04.pdf"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8359,7 @@
 			)
 		)
 		(property "Description" "6 x 6 mm, 6.5 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +8368,7 @@
 			)
 		)
 		(property "Mfg." "CUI Devices"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8377,7 @@
 			)
 		)
 		(property "Mfg. PN" "TS04-66-43-BK-100-SMT"
-			(at 109.855 135.255 0)
+			(at 142.24 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8385,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8394,7 @@
 			)
 		)
 		(property "Distributor PN" "2223-TS04-66-43-BK-100-SMT-ND"
-			(at 109.855 133.35 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9952,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 92.075 148.59 0)
+		(at 124.46 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9709,7 +9961,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a9eea7e-a564-487d-bf25-3044b72a3ab1")
 		(property "Reference" "#PWR0407"
-			(at 92.075 154.94 0)
+			(at 124.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9970,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 92.075 153.67 0)
+			(at 124.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,7 +9988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,7 +9997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +10006,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +10015,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +10024,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +10033,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 92.075 148.59 0)
+			(at 124.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,120 +10049,6 @@
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
 					(reference "#PWR0407")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RG_Logic:74AUP1T08GWH")
-		(at 158.75 181.61 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b63ee28-f2e8-4f08-91a7-44cd87aef479")
-		(property "Reference" "U401"
-			(at 157.48 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74AUP1T08GWH"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RG_TO_SOT_SMD:SOT23-5P65"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AUP1T08.pdf"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg." "Nexperia USA Inc."
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg. PN" "74AUP1T08GWH"
-			(at 154.94 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor PN" "1727-7724-2-ND"
-			(at 158.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9812a559-ec8a-46a9-a0a4-359065be4f27")
-		)
-		(pin "1"
-			(uuid "2b83a2a7-53f6-4397-b5cb-be202e4c5377")
-		)
-		(pin "3"
-			(uuid "d85f00ea-5689-498c-938a-c86a7641f8a5")
-		)
-		(pin "4"
-			(uuid "fd005943-658d-4af2-af76-2c7696240ddc")
-		)
-		(pin "5"
-			(uuid "6219e6ee-a8d3-4b97-808f-412c24401556")
-		)
-		(instances
-			(project "Ethernet_Dev_Board"
-				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
-					(reference "U401")
-					(unit 2)
 				)
 			)
 		)
@@ -11348,6 +11486,109 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:RES-0603")
+		(at 100.33 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7de4f32b-3406-4d17-87a1-4afa0a6515e2")
+		(property "Reference" "R407"
+			(at 97.79 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RG_Resistors_SMD:0603"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES-0603"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Stackpole Electronics Inc"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "RMCF0603FT10K0"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "RMCF0603FT10K0TR-ND"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd43327e-eff9-495f-a60e-d59efd87afb1")
+		)
+		(pin "2"
+			(uuid "041715c8-0811-4f9d-affe-982f906d460e")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "R407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RG_Symbols:INPUT_7")
 		(at 201.93 93.98 180)
 		(unit 1)
@@ -12532,6 +12773,107 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:+3.3V")
+		(at 100.33 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "993e8485-1cf8-4dba-97fb-6691379f5b75")
+		(property "Reference" "#NetPort0447"
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f923d309-b2f1-4adf-a314-43709325f989")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "#NetPort0447")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:RX_159")
 		(at 194.31 48.26 0)
 		(unit 1)
@@ -13311,6 +13653,123 @@
 		)
 	)
 	(symbol
+		(lib_id "RG_Logic:74LVC1G11W6")
+		(at 158.75 181.61 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab95a522-c4bf-41bc-9623-395aa1afd51c")
+		(property "Reference" "U403"
+			(at 155.702 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G11W6"
+			(at 164.592 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RG_TO_SOT_SMD:SOT23-6"
+			(at 158.242 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G11.pdf"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Diodes Incorporated"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "74LVC1G11W6-7"
+			(at 154.686 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "74LVC1G11W6-7TR-ND"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fd2cbe9-ceb4-4025-84ce-e81f8a19866e")
+		)
+		(pin "3"
+			(uuid "84016e70-031c-4bfb-bfbe-07e5553a6b21")
+		)
+		(pin "4"
+			(uuid "5a22853c-599d-4433-88f6-3968c1c27429")
+		)
+		(pin "6"
+			(uuid "1f21ecaa-a4fc-43f3-9c40-11de03b50a77")
+		)
+		(pin "5"
+			(uuid "617de3bc-8afb-403b-8215-7fd8aedfa00e")
+		)
+		(pin "1"
+			(uuid "517b4f35-1297-4674-b37f-1397ebbd2dd3")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "U403")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Controller_Hardware-eagle-import:RES-0603")
 		(at 63.5 171.45 0)
 		(unit 1)
@@ -14054,7 +14513,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 127.635 148.59 0)
+		(at 160.02 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14063,7 +14522,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3af156-703f-40da-a4f8-e2aa7a343101")
 		(property "Reference" "#PWR0409"
-			(at 127.635 154.94 0)
+			(at 160.02 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14072,7 +14531,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 127.635 153.67 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14081,7 +14540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14090,7 +14549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14108,7 +14567,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14117,7 +14576,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +14585,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14135,7 +14594,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 127.635 148.59 0)
+			(at 160.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14870,32 +15329,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
-		(at 127.635 140.97 0)
+		(lib_id "RG_Symbols:INPUT_7")
+		(at 93.98 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7c58db6-4021-4cdc-8a7c-31f5999c27a4")
-		(property "Reference" "C405"
-			(at 124.46 140.97 90)
+		(uuid "d3176900-a6e1-4c9f-b95f-c08088387826")
+		(property "Reference" "#NetPort0446"
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "RST"
+			(at 88.392 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 130.81 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RG_Capacitors_SMD:0603"
-			(at 127.635 140.97 0)
+		(property "Footprint" ""
+			(at 93.98 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14904,7 +15364,107 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.635 140.97 0)
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 93.98 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba96ce0c-6942-4ac8-b163-b22e0a57ae2d")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "#NetPort0446")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_Controller_Hardware-eagle-import:CAP-0603")
+		(at 160.02 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c58db6-4021-4cdc-8a7c-31f5999c27a4")
+		(property "Reference" "C405"
+			(at 156.845 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 163.195 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RG_Capacitors_SMD:0603"
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14913,7 +15473,7 @@
 			)
 		)
 		(property "Description" "CAP-0603"
-			(at 127.635 140.97 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14922,7 +15482,7 @@
 			)
 		)
 		(property "Mfg." "Taiyo Yuden"
-			(at 127.635 140.97 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,7 +15491,7 @@
 			)
 		)
 		(property "Mfg. PN" "TMK107BJ104KA-T"
-			(at 127.635 140.97 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14940,7 +15500,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 127.635 140.97 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,7 +15509,7 @@
 			)
 		)
 		(property "Distributor PN" "587-1245-2-ND"
-			(at 127.635 140.97 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,6 +15527,123 @@
 			(project "Ethernet_Dev_Board"
 				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
 					(reference "C405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74LVC1G11W6_1")
+		(lib_id "RG_Logic:74LVC1G11W6")
+		(at 111.76 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d80747ed-c4e7-4979-88d2-79e7658e1b17")
+		(property "Reference" "U403"
+			(at 111.7539 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G11W6"
+			(at 117.602 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RG_TO_SOT_SMD:SOT23-6"
+			(at 111.252 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/74LVC1G11.pdf"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg." "Diodes Incorporated"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg. PN" "74LVC1G11W6-7"
+			(at 111.7539 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor PN" "74LVC1G11W6-7TR-ND"
+			(at 111.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fd2cbe9-ceb4-4025-84ce-e81f8a19866e")
+		)
+		(pin "3"
+			(uuid "84016e70-031c-4bfb-bfbe-07e5553a6b21")
+		)
+		(pin "4"
+			(uuid "5a22853c-599d-4433-88f6-3968c1c27429")
+		)
+		(pin "6"
+			(uuid "1f21ecaa-a4fc-43f3-9c40-11de03b50a77")
+		)
+		(pin "5"
+			(uuid "617de3bc-8afb-403b-8215-7fd8aedfa00e")
+		)
+		(pin "1"
+			(uuid "517b4f35-1297-4674-b37f-1397ebbd2dd3")
+		)
+		(instances
+			(project "Ethernet_Dev_Board"
+				(path "/79118fbd-6cbf-48b1-af39-9f7b00f17642/7e416bb0-9118-4a80-b9f7-03742cbffb61"
+					(reference "U403")
 					(unit 1)
 				)
 			)
