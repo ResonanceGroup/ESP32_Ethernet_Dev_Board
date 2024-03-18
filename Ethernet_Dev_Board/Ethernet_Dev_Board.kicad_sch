@@ -7046,7 +7046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/tbp01r1-508.pdf"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -7064,7 +7064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." ""
+		(property "Mfg." "CUI Devices"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -7082,7 +7082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Digikey"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -7091,7 +7091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" ""
+		(property "Distributor PN" "102-6406-ND"
 			(at 36.83 88.9 0)
 			(effects
 				(font
@@ -9525,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP-0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 215.9 77.47 0)
 			(effects
 				(font
@@ -10460,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP-0603"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -10887,7 +10887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "1N4148X"
+		(property "Mfg. PN" "1N4148X-TP"
 			(at 199.39 64.135 0)
 			(effects
 				(font

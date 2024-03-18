@@ -14734,7 +14734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP_CER_2.2UF_10V_X5R_0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 165.1 94.615 0)
 			(effects
 				(font
@@ -16532,7 +16532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES-0603"
 			(at 90.17 75.565 0)
 			(effects
 				(font

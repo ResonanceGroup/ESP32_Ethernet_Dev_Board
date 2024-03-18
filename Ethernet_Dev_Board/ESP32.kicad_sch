@@ -7951,7 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESP32 w/ PCB Antenna"
+		(property "Description" "RF TXRX MODULE BT PCB TRACE SMD"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "ESP32-WROOM-32E-H4"
+		(property "Mfg. PN" "ESP32-WROOM-32E-N8"
 			(at 152.4 34.29 0)
 			(effects
 				(font
@@ -7986,7 +7986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1965-ESP32-WROOM-32E-H4TR-ND"
+		(property "Distributor PN" "1965-ESP32-WROOM-32E-N8TR-ND"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -8273,7 +8273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6 x 6 mm, 6.5 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 142.24 128.27 0)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP-0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 76.835 176.53 0)
 			(effects
 				(font
@@ -9910,7 +9910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP-0603"
 			(at 91.44 46.99 0)
 			(effects
 				(font
