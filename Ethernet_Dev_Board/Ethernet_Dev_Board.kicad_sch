@@ -8029,19 +8029,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "46be0b7e-a711-4b89-bf6c-dfa2379939a2")
+			(uuid "46be0b7e-a711-4b89-bf6c-dfa2379939a3")
 		)
 		(pin "1"
-			(uuid "824b6500-b511-44cf-a044-2cc47d113827")
+			(uuid "824b6500-b511-44cf-a044-2cc47d113828")
 		)
 		(pin "5"
-			(uuid "593e2458-b4fb-4dce-a3dd-739ae6f57670")
+			(uuid "593e2458-b4fb-4dce-a3dd-739ae6f57671")
 		)
 		(pin "3"
-			(uuid "ae9bf17d-c639-491e-8ba0-c3f59f350c6f")
+			(uuid "ae9bf17d-c639-491e-8ba0-c3f59f350c70")
 		)
 		(pin "2"
-			(uuid "f7247bda-355e-4780-925e-7c1af56cdf53")
+			(uuid "f7247bda-355e-4780-925e-7c1af56cdf54")
 		)
 		(instances
 			(project "Ethernet_Dev_Board"
