@@ -763,7 +763,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP-0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Description" "ESP32 w/ PCB Antenna"
+		(property "Description" "RF TXRX MODULE BT PCB TRACE SMD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5699,7 +5699,7 @@
 				)
 			)
 		)
-		(property "Mfg. PN" "ESP32-WROOM-32E-H4"
+		(property "Mfg. PN" "ESP32-WROOM-32E-N8"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5725,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Distributor PN" "1965-ESP32-WROOM-32E-H4TR-ND"
+		(property "Distributor PN" "1965-ESP32-WROOM-32E-N8TR-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6427,7 +6427,7 @@
 			(size 0.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "GND1")
-			(pinfunction "GND@1")
+			(pinfunction "GND@3")
 			(pintype "power_in")
 			(solder_mask_margin 0.0508)
 			(solder_paste_margin -0.0508)
@@ -13857,7 +13857,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP_CER_2.2UF_10V_X5R_0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16102,7 +16102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/tbp01r1-508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16126,7 +16126,7 @@
 				)
 			)
 		)
-		(property "Mfg." ""
+		(property "Mfg." "CUI Devices"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16152,7 +16152,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Digikey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16165,7 +16165,7 @@
 				)
 			)
 		)
-		(property "Distributor PN" ""
+		(property "Distributor PN" "102-6406-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18495,7 +18495,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES-0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19365,7 +19365,7 @@
 				)
 			)
 		)
-		(property "Description" "6 x 6 mm, 6.5 mm Actuator Height, 260 gf, Black, Surface Mount, SPST, Tactile Switch"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21168,7 +21168,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP-0603"
+		(property "Description" "CAP CER 2.2UF 10V X5R 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24890,7 +24890,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP-0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25393,7 +25393,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP-0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27387,7 +27387,7 @@
 				)
 			)
 		)
-		(property "Mfg. PN" "1N4148X"
+		(property "Mfg. PN" "1N4148X-TP"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
