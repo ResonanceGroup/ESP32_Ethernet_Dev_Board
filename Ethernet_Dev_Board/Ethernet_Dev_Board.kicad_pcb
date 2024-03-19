@@ -1796,7 +1796,7 @@
 	(footprint "RG_Logo:Logo_1"
 		(layer "F.Cu")
 		(uuid "0eaaa486-a1a0-4e02-80d9-7e1e90cc50ae")
-		(at 142.24 100.33)
+		(at 142.24 100.084424)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
