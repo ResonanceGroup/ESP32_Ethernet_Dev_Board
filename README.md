@@ -1,0 +1,3 @@
+This project is meant to test 2 different ethernet controller chips for the ESP32. The board is testing the W5100S and W5500. Only populate one or the other. Feel free to use this schematic as a reference. Or make your dev board that includes the ethernet controllers. If referencing off of the schematic, please provide credit to the original project (this one).
+
+Will update later which circuit performed the best.
