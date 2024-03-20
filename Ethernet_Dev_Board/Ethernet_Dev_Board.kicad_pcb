@@ -5156,17 +5156,6 @@
 			(layer "F.Fab")
 			(uuid "dfc05d34-bb61-4291-828e-2740fbcbf820")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 16.51 0)
-			(layer "F.Fab")
-			(uuid "39240907-9b0e-48c1-bebe-ea10e1ad753c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 90)
 			(size 1.7 1.7)
@@ -7151,7 +7140,6 @@
 			(at -2.377 0.036 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "57199338-29a8-4c27-b43e-9782c986ea45")
 			(effects
 				(font
@@ -9103,7 +9091,7 @@
 		(at 124 51.85 180)
 		(descr "Mfg. PN: TMK107BJ104KA-T Distributor: Digikey Distributor PN: 587-1245-2-ND")
 		(property "Reference" "C304"
-			(at -0.079 1.304 0)
+			(at 0.175 1.304 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cefcfd60-3aef-4d3e-83ae-44ee9b853f91")
@@ -10239,10 +10227,9 @@
 		(at 115.75 88 -90)
 		(descr "Mfg. PN: TMK107BJ104KA-T Distributor: Digikey Distributor PN: 587-1245-2-ND")
 		(property "Reference" "C210"
-			(at -0.007 1.45 90)
+			(at -0.497 1.323 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fa0e9111-1ea3-496e-a242-3b05ca3494c5")
 			(effects
 				(font
@@ -11771,7 +11758,6 @@
 			(at 0 -1.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "be135c5f-239b-4eb4-b0c7-8461d48e8591")
 			(effects
 				(font
@@ -13594,7 +13580,6 @@
 			(at 3.086 0.016 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "af6459bd-0e3d-4f98-bb05-e2fb7e7d40b6")
 			(effects
 				(font
@@ -17203,7 +17188,7 @@
 		(at 98.25 88.25 180)
 		(descr "Mfg. PN: RMCF0603FT470K Distributor: Digikey Distributor PN: RMCF0603FT470KTR-ND")
 		(property "Reference" "R402"
-			(at 0.079 -1.285 0)
+			(at -0.048 -1.412 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a634df99-dba8-4ff5-acc7-ffd29ab7c882")
@@ -18382,17 +18367,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "4ad8452e-9d8f-4400-b19f-ea43a4e4161c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(uuid "5dec6b9b-0e1a-4d7f-ae29-87b2e3d942ab")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.105)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.1 0.8 90)
@@ -25991,7 +25965,6 @@
 			(at -3.266 0.011 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "dac7a8bc-bcf9-4065-b692-490203d5b790")
 			(effects
 				(font
@@ -26637,7 +26610,6 @@
 			(at 3.139 0.013 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "cceec1ec-58c2-4ed4-b3f9-02de7b017968")
 			(effects
 				(font
@@ -29573,7 +29545,6 @@
 			(at 2.377 0.002 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "a54414c6-a793-4424-9a3b-9a80f519a00e")
 			(effects
 				(font
@@ -30378,7 +30349,7 @@
 		)
 	)
 	(gr_text "MOSI"
-		(at 120.40746 86.60133 0)
+		(at 120.396 86.36 0)
 		(layer "F.SilkS")
 		(uuid "e5f441a1-60e4-45ca-a501-449d33f755b3")
 		(effects
@@ -31733,7 +31704,7 @@
 	(segment
 		(start 139 92.5)
 		(end 140.624 92.5)
-		(width 0.508)
+		(width 1.27)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d33e4578-4b7e-4abc-bf42-01add8c6907d")
@@ -31757,7 +31728,7 @@
 	(segment
 		(start 140.624 46.88)
 		(end 139.12 46.88)
-		(width 0.508)
+		(width 1.27)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d63d7ae5-8c4a-44fa-a4ee-56e5a4b9aeae")
