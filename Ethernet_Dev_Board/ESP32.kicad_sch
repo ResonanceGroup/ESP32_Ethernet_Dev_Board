@@ -9919,7 +9919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -9928,7 +9928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -9946,7 +9946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 91.44 46.99 0)
 			(effects
 				(font

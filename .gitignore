@@ -29,3 +29,4 @@ fp-info-cache
 *.csv
 *.lck
 Ethernet_Dev_Board/.~lock.Order_BOM.ods\#
+*.csv#

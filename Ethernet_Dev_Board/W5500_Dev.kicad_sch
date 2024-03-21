@@ -21065,7 +21065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C1206C102KGRACTU"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/HVKGM.pdf"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -21083,7 +21083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "KEMET"
+		(property "Mfg." "KYOCERA AVX"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -21092,7 +21092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "C1206C102KGRAC7800"
+		(property "Mfg. PN" "KGM31AR73D102MU"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -21110,7 +21110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "399-C1206C102KGRAC7800TR-ND"
+		(property "Distributor PN" "478-KGM31AR73D102MUTR-ND"
 			(at 245.11 86.36 0)
 			(effects
 				(font

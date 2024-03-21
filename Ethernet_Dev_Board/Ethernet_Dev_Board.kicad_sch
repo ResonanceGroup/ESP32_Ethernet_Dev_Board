@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -5518,7 +5518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -6230,7 +6230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 87.636 37.471 0)
 			(effects
 				(font
@@ -6239,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 87.636 37.471 0)
 			(effects
 				(font
@@ -6257,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 87.636 37.471 0)
 			(effects
 				(font
@@ -9023,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -9050,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -11390,7 +11390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -11399,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -11417,7 +11417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -11594,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg." "Samsung Electro-Mechanics"
+		(property "Mfg." "Murata Electronics"
 			(at 88.9 82.55 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. PN" "CL10A226MP8NUNE"
+		(property "Mfg. PN" "GRM188R61A226ME15D"
 			(at 88.9 82.55 0)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor PN" "1276-1274-2-ND"
+		(property "Distributor PN" "490-10476-2-ND"
 			(at 88.9 82.55 0)
 			(effects
 				(font
