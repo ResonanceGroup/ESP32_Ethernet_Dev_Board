@@ -9,11 +9,11 @@
 #include <WiFi.h>
 
 EthernetClient ethClient;
-IPAddress serverIP(174,129,105,59);
+IPAddress serverIP(0,0,0,0);
 void subscribeReceive(char* topic, byte* payload, unsigned int length); 
 PubSubClient mqttClient(serverIP, 1883, subscribeReceive, ethClient);
 
-String MQTTUserName = "user";
+String MQTTUserName = "User";
 String MQTTPassword = "pass";
 
 String deviceID;
