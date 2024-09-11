@@ -36,7 +36,7 @@ void PrintMQTTLog(String message);
 #define SCLK_PIN  			18 
 #define MISO_PIN  			19
 #define MOSI_PIN  			23
-#define SS_PIN    			4
+#define SS_PIN    			8
 
 #define ETH_LED		22
 #define MQTT_LED	17

@@ -11559,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "2.2uF"
 			(at 92.075 82.55 90)
 			(effects
 				(font
